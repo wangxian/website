@@ -70,8 +70,8 @@ theme: landscape
 ## https://github.com/hexojs/hexo-deployer-git
 deploy:
   type: git
-  repo: git@github.com:wangxian/website.git
+  repo: https://github.com/wangxian/website.git
   branch: gh-pages
-  message: [message]
+  message: "update website"
   name: wangxian
   email: xian366@126.com
