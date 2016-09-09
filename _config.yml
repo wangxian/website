@@ -6,15 +6,16 @@
 title: 一锅粥
 subtitle: 杂乱的信息记录与整理
 description: 一锅粥，整理杂乱的、乱七八糟的种种信息。
-author: wangxian
+author: 木頭
 language: zh-CN
 timezone: PRC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wangxian.me
-root: /
-permalink: :year/:month/:title.html
+# root: /
+
+permalink: /:year/:month/:title.html
 permalink_defaults:
 
 # Directory
@@ -63,7 +64,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yilia
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

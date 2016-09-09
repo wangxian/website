@@ -1,0 +1,54 @@
+# Header
+menu:
+  主页: /
+  所有文章: /archives
+  # 随笔: /tags/随笔
+  # 相册: /instagram
+
+# SubNav
+subnav:
+  github: "https://github.com/wangxian"
+  weibo: "http://weibo.com/xian366"
+  rss: /atom.xml
+  mail: "wo#wangxian.me"
+  # facebook: "/"
+  # google: "/"
+  # twitter: "/"
+  # linkedin: "/"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: more
+fancybox: true
+
+# Miscellaneous
+
+favicon: /favicon.png
+
+avatar: /assets/img/avatar.jpg
+share: true
+duoshuo: "wangxian"
+tagcloud: true
+
+# 是否开启动画效果
+animate: true
+
+# 是否开启友情链接
+# 不开启——
+# friends: false
+# 开启——
+# friends:
+#   奥巴马的博客: http://localhost:4000/
+#   卡卡的美丽传说: http://localhost:4000/
+#   本泽马的博客: http://localhost:4000/
+#   吉格斯的博客: http://localhost:4000/
+#   习大大大不同: http://localhost:4000/
+#   托蒂的博客: http://localhost:4000/
+
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: 一个喜欢思考的IT从业者，思想活跃且跳跃性很大，望大家谅解。
