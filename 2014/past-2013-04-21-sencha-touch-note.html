@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Sencha Touch Dev | 一锅粥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="生成项目 Init Project
+进入sencha sdk 目录, eg: cd touch-2.2.1/
+执行 sencha generate app projectName ../projectPath
+
+生成modelsencha generate model User id:int
+构建production应用sencha app build production
+构建native包se">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sencha Touch Dev">
+<meta property="og:url" content="https://wangxian.me/2014/past-2013-04-21-sencha-touch-note.html">
+<meta property="og:site_name" content="一锅粥">
+<meta property="og:description" content="生成项目 Init Project
+进入sencha sdk 目录, eg: cd touch-2.2.1/
+执行 sencha generate app projectName ../projectPath
+
+生成modelsencha generate model User id:int
+构建production应用sencha app build production
+构建native包se">
+<meta property="og:updated_time" content="2014-04-20T15:53:56.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sencha Touch Dev">
+<meta name="twitter:description" content="生成项目 Init Project
+进入sencha sdk 目录, eg: cd touch-2.2.1/
+执行 sencha generate app projectName ../projectPath
+
+生成modelsencha generate model User id:int
+构建production应用sencha app build production
+构建native包se">
+  
+    <link rel="alternative" href="/atom.xml" title="一锅粥" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/assets/img/avatar.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">木頭</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">杂乱的信息记录与整理</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/links.html">链接</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wangxian" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/xian366" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="/wo#wangxian.me" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Angular-js/" style="font-size: 10px;">Angular.js</a> <a href="/tags/CDN/" style="font-size: 10px;">CDN</a> <a href="/tags/Github/" style="font-size: 13.33px;">Github</a> <a href="/tags/Go/" style="font-size: 15px;">Go</a> <a href="/tags/Google/" style="font-size: 10px;">Google</a> <a href="/tags/JQuery/" style="font-size: 10px;">JQuery</a> <a href="/tags/JavaScript/" style="font-size: 16.67px;">JavaScript</a> <a href="/tags/Node-js/" style="font-size: 10px;">Node.js</a> <a href="/tags/OSX/" style="font-size: 10px;">OSX</a> <a href="/tags/PAAS/" style="font-size: 11.67px;">PAAS</a> <a href="/tags/PHP/" style="font-size: 10px;">PHP</a> <a href="/tags/SEO/" style="font-size: 10px;">SEO</a> <a href="/tags/Sublime/" style="font-size: 10px;">Sublime</a> <a href="/tags/app/" style="font-size: 10px;">app</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/jQuery/" style="font-size: 10px;">jQuery</a> <a href="/tags/jekyll/" style="font-size: 18.33px;">jekyll</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/shadowsocks/" style="font-size: 10px;">shadowsocks</a> <a href="/tags/weeklog/" style="font-size: 20px;">weeklog</a> <a href="/tags/冬/" style="font-size: 10px;">冬</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/墙/" style="font-size: 10px;">墙</a> <a href="/tags/开发/" style="font-size: 16.67px;">开发</a> <a href="/tags/折腾/" style="font-size: 10px;">折腾</a> <a href="/tags/游记/" style="font-size: 13.33px;">游记</a> <a href="/tags/计划/" style="font-size: 10px;">计划</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">一个喜欢思考的IT从业者，思想活跃且跳跃性很大，望大家谅解。</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">木頭</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="/assets/img/avatar.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">木頭</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">杂乱的信息记录与整理</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/links.html">链接</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wangxian" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/xian366" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="/wo#wangxian.me" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-past-2013-04-21-sencha-touch-note" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/past-2013-04-21-sencha-touch-note.html" class="article-date">
+  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Sencha Touch Dev
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/sencha/">sencha</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="生成项目-Init-Project"><a href="#生成项目-Init-Project" class="headerlink" title="生成项目 Init Project"></a>生成项目 Init Project</h2><ol>
+<li>进入sencha sdk 目录, <code>eg: cd touch-2.2.1/</code></li>
+<li>执行 <code>sencha generate app projectName ../projectPath</code></li>
+</ol>
+<h2 id="生成model"><a href="#生成model" class="headerlink" title="生成model"></a>生成model</h2><pre><code>sencha generate model User id:int
+</code></pre><h2 id="构建production应用"><a href="#构建production应用" class="headerlink" title="构建production应用"></a>构建production应用</h2><pre><code>sencha app build production
+</code></pre><h2 id="构建native包"><a href="#构建native包" class="headerlink" title="构建native包"></a>构建native包</h2><pre><code>sencha app build native
+</code></pre><h3 id="About-APP-build"><a href="#About-APP-build" class="headerlink" title="About APP build"></a>About APP build</h3><ul>
+<li><p>testing - intended for QA prior to production. All JavaScript and CSS source files are bundled, but not minified, which makes it easier to debug.</p>
+</li>
+<li><p>package - creates a self-contained, redistributable production build that normally runs from the local file system without a web server.</p>
+</li>
+<li><p>production - creates a production build that is normally hosted on a web server and serves multiple clients (devices). The build is offline-capable using HTML 5 application cache, and is enabled to perform over-the-air updates.</p>
+</li>
+<li><p>native - first generates a package build, then packages it as a native application, ready to be deployed to native platforms.</p>
+</li>
+</ul>
+<h2 id="这也行-还能直接掉起来iOS模拟器"><a href="#这也行-还能直接掉起来iOS模拟器" class="headerlink" title="这也行? 还能直接掉起来iOS模拟器"></a>这也行? 还能直接掉起来iOS模拟器</h2><pre><code>sencha app package run packager.json
+</code></pre><p>然后真的调用起来了一个模拟器了，真是非常的方便。而且生成以后，不用配置。<br>默认 <code>packager.json</code> 里的 platform 是 <code>iOSSimulator</code></p>
+<hr>
+<h2 id="Controller"><a href="#Controller" class="headerlink" title="Controller"></a>Controller</h2><p>有个比较重要的，routers &amp; refs</p>
+<pre><code>Ext.define(&apos;MyApp.controller.Main&apos;, {
+    extend: &apos;Ext.app.Controller&apos;,
+
+    config: {
+        control: {
+            loginButton: {
+                tap: &apos;doLogin&apos;
+            },
+            &apos;button[action=logout]&apos;: {
+                tap: &apos;doLogout&apos;
+            }
+        },
+
+        refs: {
+            loginButton: &apos;button[action=login]&apos;
+        }
+    },
+
+    doLogin: function() {
+        // called whenever the Login button is tapped
+    },
+
+    doLogout: function() {
+        // called whenever any Button with action=logout is tapped
+    }
+});
+</code></pre><p>理解上refs 是引用的别名，control 类似 backbone的 events 的事件绑定。</p>
+<hr>
+<h2 id="Views"><a href="#Views" class="headerlink" title="Views"></a>Views</h2><p>创建一个view</p>
+<pre><code>Ext.create(&apos;Ext.Panel&apos;, {
+  html: &apos;Welcome to my app - 王见&apos;,
+  fullscreen: true
+});
+</code></pre><p>或先define一个，然后create</p>
+<pre><code>Ext.define(&apos;MyApp.view.Welcome&apos;, {
+    extend: &apos;Ext.Panel&apos;,
+
+    config: {
+        html: &apos;Welcome to my app&apos;,
+        fullscreen: true
+    }
+});
+
+Ext.create(&apos;MyApp.view.Welcome&apos;);
+</code></pre><p>下面是官方提供的一个twitter图片展示的完整示例，<br>注意: config, element, initialize， on 的使用。</p>
+<pre><code>Ext.define(&apos;MyApp.view.Image&apos;, {
+   extend: &apos;Ext.Img&apos;,
+
+   config: {
+       title: null,
+       description: null
+   },
+
+   //sets up our tap event listener
+   initialize: function() {
+       this.callParent(arguments);
+
+       this.element.on(&apos;tap&apos;, this.onTap, this);
+   },
+
+   //this function is called whenever you tap on the image
+   onTap: function() {
+       Ext.Msg.alert(this.getTitle(), this.getDescription());
+   }
+});
+
+//creates a full screen tappable image
+Ext.create(&apos;MyApp.view.Image&apos;, {
+   title: &apos;图片标题&apos;,
+   description: &apos;这里是图片信息&apos;,
+
+   src: &apos;http://apod.nasa.gov/apod/image/1202/oriondeep_andreo_960.jpg&apos;,
+   fullscreen: true
+});
+</code></pre><p>必须在initialize中调用 <code>this.callParent(arguments);</code> 来继承父类，<br>不然组件可能运行不正常。</p>
+<p>每一个view等组件上，都有一个element方法，可以添加事件等；</p>
+<h3 id="视图隐式-setXXX-getXXX-applyXXX-updateXXX"><a href="#视图隐式-setXXX-getXXX-applyXXX-updateXXX" class="headerlink" title="视图隐式 setXXX getXXX applyXXX updateXXX"></a>视图隐式 setXXX getXXX applyXXX updateXXX</h3><ul>
+<li><p>上一个例子中，在view中会自动生成getTitle, setTitle等，也就是getter，and setter</p>
+</li>
+<li><p>applyXXX 当set发生变化的时候，或当第一次初始化的时候，也会调用。常用来修改变化的值，如把<code>10</code>组装成<code>10px solid dashed</code></p>
+</li>
+<li><p>updateXXX 当调用完applyXXX后，接着调用updateXXX。常用来把改变的值反应到dom上。</p>
+</li>
+</ul>
+<p>示例：</p>
+<pre><code>// as before
+Ext.define(&apos;MyApp.view.MyView&apos;, {
+    extend: &apos;Ext.Panel&apos;,
+
+    config: {
+        border: 0
+    },
+
+    applyBorder: function(value) {
+        return value + &quot;px solid red&quot;;
+    },
+
+    updateBorder: function(newValue, oldValue) {
+        this.element.setStyle(&apos;border&apos;, newValue);
+    }
+});
+
+// create an instance of MyView with a
+// spinner field that updates the border config
+var view = Ext.create(&apos;MyApp.view.MyView&apos;, {
+    border: 5,
+    fullscreen: true,
+    styleHtmlContent: true,
+    html: &apos;Tap the spinner to change the border config option&apos;,
+    items: {
+        xtype: &apos;spinnerfield&apos;,
+        label: &apos;Border size&apos;,
+        docked: &apos;top&apos;,
+        value: 5,
+        minValue: 0,
+        maxValue: 100,
+        increment: 1,
+        listeners: {
+            spin: function(spinner, value) {
+                view.setBorder(value);
+            }
+        }
+    }
+});
+</code></pre><h1 id="Device-Profiles"><a href="#Device-Profiles" class="headerlink" title="Device Profiles"></a>Device Profiles</h1><p>为了适应不同尺寸的屏幕，需要检测设备，并且加载不同的类，</p>
+<p>需要在<code>app.js</code>中定义</p>
+<pre><code>Ext.application({
+    name: &apos;Mail&apos;,
+
+    profiles: [&apos;Phone&apos;, &apos;Tablet&apos;],
+    models: [&apos;User&apos;],
+    views: [&apos;Navigation&apos;, &apos;Login&apos;]
+});
+</code></pre><p>Phone定义在, <code>app/profile/Phone.js</code></p>
+<pre><code>Ext.define(&apos;Mail.profile.Phone&apos;, {
+    extend: &apos;Ext.app.Profile&apos;,
+
+    config: {
+        name: &apos;Phone&apos;,
+        views: [&apos;Main&apos;]
+    },
+
+    isActive: function() {
+        return Ext.os.is(&apos;Phone&apos;);
+    }
+});
+</code></pre><p>文件的加载顺序：</p>
+<ol>
+<li>app/model/User.js</li>
+<li>app/view/Navigation.js</li>
+<li>app/view/Login.js</li>
+<li>app/view/phone/Main.js</li>
+</ol>
+<p>可以看到在profile中定义的最后加载。</p>
+<p>可以用<code>Ext.os.is</code>来判断设备是Phone还是Tables</p>
+<p>并且在profile中定义的load view，是在当前profile名字下的目录里，如<code>app/view/phone/Main.js</code> 如果需要同样在view/Main.js 中，那在config.views 中写全路径：<code>Mail.view.Main</code></p>
+<h3 id="The-Launch-Process"><a href="#The-Launch-Process" class="headerlink" title="The Launch Process"></a>The Launch Process</h3><p>APP初始化顺序</p>
+<ol>
+<li><p>Controllers are instantiated; each Controller’s init function is called</p>
+</li>
+<li><p>The Profile’s launch function is called</p>
+</li>
+<li>The Application’s launch function is called.</li>
+</ol>
+<p>不同的设备可以定义不同的views, controllers, models</p>
+<p>不同的views：</p>
+<pre><code>Ext.define(&apos;Mail.view.tablet.Main&apos;, {
+    extend: &apos;Ext.Container&apos;,
+
+    config: {
+        layout: &apos;fit&apos;,
+        items: [
+            {
+                xtype: &apos;messagelist&apos;,
+                width: 200,
+                docked: &apos;left&apos;
+            },
+            {
+                xtype: &apos;messageviewer&apos;
+            }
+        ]
+    }
+});
+
+Ext.define(&apos;Mail.view.phone.Main&apos;, {
+    extend: &apos;Ext.Container&apos;,
+
+    config: {
+        layout: &apos;card&apos;,
+        items: [
+            {
+                xtype: &apos;messagelist&apos;
+            },
+            {
+                xtype: &apos;messageviewer&apos;
+            }
+        ]
+    }
+});
+</code></pre><p>详细见 <a href="http://docs.sencha.com/touch/2.2.0/#!/guide/profiles" target="_blank" rel="external">http://docs.sencha.com/touch/2.2.0/#!/guide/profiles</a></p>
+<h1 id="History-支持"><a href="#History-支持" class="headerlink" title="History 支持"></a>History 支持</h1><p><strong>简单匹配</strong></p>
+<pre><code>Ext.define(&apos;MyApp.controller.Products&apos;, {
+    extend: &apos;Ext.app.Controller&apos;,
+
+    config: {
+        routes: {
+            &apos;products/:id&apos;: &apos;showProduct&apos;,
+            &apos;products/:id/:format&apos;: &apos;showProductInFormat&apos;
+        }
+    },
+
+    showProduct: function(id) {
+        console.log(&apos;showing product &apos; + id);
+    },
+
+    showProductInFormat: function(id, format) {
+        console.log(&apos;showing product &apos; + id + &apos; in &apos; + format + &apos; format&apos;);
+    }
+});
+</code></pre><p><strong>复杂匹配</strong></p>
+<pre><code>Ext.define(&apos;MyApp.controller.Products&apos;, {
+    extend: &apos;Ext.app.Controller&apos;,
+
+    config: {
+        routes: {
+            &apos;file/:filename&apos;: {
+                action: &apos;showFile&apos;,
+                conditions: {
+                    &apos;:filename&apos;: &quot;[0-9a-zA-Z\.]+&quot;
+                }
+            }
+        }
+    },
+
+    //opens a new window to show the file
+    showFile: function(filename) {
+        window.open(filename);
+    }
+});
+</code></pre><p>复杂匹配的时候，需要把router定义为object，action为处理方法。</p>
+<p><em>感觉：</em> 没有backbone 方便，直接定义正则表达式，不过这感觉和controller的refs controller的感觉差不多。</p>
+<p><strong>Restore state and deep link</strong></p>
+<p>such as <a href="http://myapp.com/#products/123" target="_blank" rel="external">http://myapp.com/#products/123</a></p>
+<pre><code>Ext.define(&apos;MyApp.controller.Products&apos;, {
+    extend: &apos;Ext.app.Controller&apos;,
+
+    config: {
+        refs: {
+            main: &apos;#mainView&apos;
+        },
+
+        routes: {
+            &apos;products/:id&apos;: &apos;showProduct&apos;
+        }
+    },
+
+    /**
+     * Endpoint for &apos;products/:id&apos; routes. Adds a product details view (xtype = productview)
+     * into the main view of the app then loads the Product into the view
+     *
+     */
+    showProduct: function(id) {
+        var view = this.getMain().add({
+            xtype: &apos;productview&apos;
+        });
+
+        MyApp.model.Product.load(id, {
+            success: function(product) {
+                view.setRecord(product);
+            },
+            failure: function() {
+                Ext.Msg.alert(&apos;Could not load Product &apos; + id);
+            }
+        });
+    }
+});
+</code></pre><p>例子中将从服务器端获取数据。</p>
+<p>router可以被 <code>Device Profile</code> 重写。</p>
+<p>eg:</p>
+<pre><code>Ext.define(&apos;MyApp.controller.Products&apos;, {
+    extend: &apos;Ext.app.Controller&apos;,
+
+    config: {
+        routes: {
+            &apos;products/:id&apos;: &apos;showProduct&apos;
+        }
+    }
+});
+Ext.define(&apos;MyApp.controller.phone.Products&apos;, {
+    extend: &apos;MyApp.controller.Products&apos;,
+
+    showProduct: function(id) {
+        console.log(&apos;showing a phone-specific Product page for &apos; + id);
+    }
+});
+Ext.define(&apos;MyApp.controller.tablet.Products&apos;, {
+    extend: &apos;MyApp.controller.Products&apos;,
+
+    showProduct: function(id) {
+        console.log(&apos;showing a tablet-specific Product page for &apos; + id);
+    }
+});
+</code></pre><h3 id="Application-Dependencies"><a href="#Application-Dependencies" class="headerlink" title="Application Dependencies"></a>Application Dependencies</h3><p>定义在application 里的views, models, controllers</p>
+<pre><code>Ext.application({
+    name: &apos;MyApp&apos;,
+
+    views: [&apos;Login&apos;],
+    models: [&apos;User&apos;],
+    controllers: [&apos;Users&apos;],
+    stores: [&apos;Products&apos;],
+    profiles: [&apos;Phone&apos;, &apos;Tablet&apos;]
+});
+</code></pre><p>会加载以下文件：</p>
+<ul>
+<li>app/view/Login.js</li>
+<li>app/model/User.js</li>
+<li>app/controller/Users.js</li>
+<li>app/store/Products.js</li>
+<li>app/profile/Phone.js</li>
+<li>app/profile/Tablet.js</li>
+</ul>
+<p>用 <code>Ext.require</code> 也是可以的</p>
+<pre><code>Ext.require([
+    &apos;MyApp.view.Login&apos;,
+    &apos;MyApp.model.User&apos;,
+    &apos;MyApp.controller.Users&apos;,
+    &apos;MyApp.store.Products&apos;,
+    &apos;MyApp.profile.Phone&apos;,
+    &apos;MyApp.profile.Tablet&apos;
+]);
+</code></pre><p>且在profile中也可以定义，eg:</p>
+<pre><code>Ext.define(&apos;MyApp.profile.Tablet&apos;, {
+    extend: &apos;Ext.app.Profile&apos;,
+
+    config: {
+        views: [&apos;SpecialView&apos;],
+        controllers: [&apos;Main&apos;],
+        models: [&apos;MyApp.model.SuperUser&apos;]
+    },
+
+    isActive: function() {
+        return Ext.os.is.Tablet;
+    }
+});
+</code></pre><p>classes在多个子目录里：</p>
+<pre><code>Ext.application({
+    name: &apos;MyApp&apos;,
+
+    controllers: [&apos;Users&apos;, &apos;nested.MyController&apos;],
+    views: [&apos;products.Show&apos;, &apos;products.Edit&apos;, &apos;user.Login&apos;]
+});
+</code></pre><p>或定义一个 外部的公共 Auth 引用。(个人理解，是多个app公用一个Auth文件夹)</p>
+<pre><code>Ext.Loader.setPath({
+    &apos;Auth&apos;: &apos;Auth&apos;
+});
+
+Ext.application({
+    views: [&apos;Auth.view.LoginForm&apos;, &apos;Welcome&apos;],
+    controllers: [&apos;Auth.controller.Sessions&apos;, &apos;Main&apos;],
+    models: [&apos;Auth.model.User&apos;]
+});
+</code></pre><p>会加载以下文件，感觉有点controller, refs 的影子，注意需要用 <code>Ext.Loader.setPath</code> 来指定auth目录。</p>
+<ul>
+<li>Auth/view/LoginForm.js</li>
+<li>Auth/controller/Sessions.js</li>
+<li>Auth/model/User.js</li>
+<li>app/view/Welcome.js</li>
+<li>app/controller/Main.js</li>
+</ul>
+<p>最好把view或controllers 的依赖定义在view本真中，不要放在 app.js 中，<br>保持app.js的清晰。</p>
+<p>完整示例：</p>
+<pre><code>// app/views/Main.js
+Ext.define(&apos;MyApp.view.Main&apos;, {
+    extend: &apos;Ext.Container&apos;,
+
+    requires: [
+        &apos;MyApp.view.Navigation&apos;,
+        &apos;MyApp.view.MainList&apos;
+    ],
+
+    config: {
+        items: [
+            {
+                xtype: &apos;navigation&apos;
+            },
+            {
+                xtype: &apos;mainlist&apos;
+            }
+        ]
+    }
+});
+
+// app.js
+Ext.application({
+    views: [&apos;Main&apos;]
+});
+
+// this is bad approach
+Ext.application({
+    views: [&apos;Main&apos;, &apos;Navigation&apos;, &apos;MainList&apos;]
+});
+</code></pre>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/past-2013-04-19-nothing.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          no title
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/past-2013-05-08-seajs2-coffeescript.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">尝试让Sea.js支持CoffeeScript</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="past-2013-04-21-sencha-touch-note" data-title="Sencha Touch Dev" data-url="https://wangxian.me/2014/past-2013-04-21-sencha-touch-note.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"wangxian"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 木頭
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: undefined,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: undefined
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+  </div>
+</body>
+</html>

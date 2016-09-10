@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Golang package manage VS NPM | 一锅粥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="研究Go语言有段时间了（也叫Golang）现代的开发语言都有一个包管理，go也自带了一个包管理没有名字叫go getNodejs的包管理叫npm，go get虽然简单直接，但和Node.js npm 一比还是比较弱的，粗略的讲有3个方面。
+
+命令行使用上的差别
+版本管理
+仓库源
+
+命令行使用上的差别先说命令行使用，go get 命令，我已知有用的只有一个参数 -u 更新已安装的包。没有删除已安装">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Golang package manage VS NPM">
+<meta property="og:url" content="https://wangxian.me/2014/past-2013-08-16-golang-pkg-vs-npm.html">
+<meta property="og:site_name" content="一锅粥">
+<meta property="og:description" content="研究Go语言有段时间了（也叫Golang）现代的开发语言都有一个包管理，go也自带了一个包管理没有名字叫go getNodejs的包管理叫npm，go get虽然简单直接，但和Node.js npm 一比还是比较弱的，粗略的讲有3个方面。
+
+命令行使用上的差别
+版本管理
+仓库源
+
+命令行使用上的差别先说命令行使用，go get 命令，我已知有用的只有一个参数 -u 更新已安装的包。没有删除已安装">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/493b785ajw1e7r0qn9pqzj20a003wmx2.jpg">
+<meta property="og:updated_time" content="2014-04-30T04:51:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Golang package manage VS NPM">
+<meta name="twitter:description" content="研究Go语言有段时间了（也叫Golang）现代的开发语言都有一个包管理，go也自带了一个包管理没有名字叫go getNodejs的包管理叫npm，go get虽然简单直接，但和Node.js npm 一比还是比较弱的，粗略的讲有3个方面。
+
+命令行使用上的差别
+版本管理
+仓库源
+
+命令行使用上的差别先说命令行使用，go get 命令，我已知有用的只有一个参数 -u 更新已安装的包。没有删除已安装">
+<meta name="twitter:image" content="http://ww4.sinaimg.cn/large/493b785ajw1e7r0qn9pqzj20a003wmx2.jpg">
+  
+    <link rel="alternative" href="/atom.xml" title="一锅粥" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/assets/img/avatar.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">木頭</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">杂乱的信息记录与整理</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/links.html">链接</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wangxian" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/xian366" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="/wo#wangxian.me" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Angular-js/" style="font-size: 10px;">Angular.js</a> <a href="/tags/CDN/" style="font-size: 10px;">CDN</a> <a href="/tags/Github/" style="font-size: 13.33px;">Github</a> <a href="/tags/Go/" style="font-size: 15px;">Go</a> <a href="/tags/Google/" style="font-size: 10px;">Google</a> <a href="/tags/JQuery/" style="font-size: 10px;">JQuery</a> <a href="/tags/JavaScript/" style="font-size: 16.67px;">JavaScript</a> <a href="/tags/Node-js/" style="font-size: 10px;">Node.js</a> <a href="/tags/OSX/" style="font-size: 10px;">OSX</a> <a href="/tags/PAAS/" style="font-size: 11.67px;">PAAS</a> <a href="/tags/PHP/" style="font-size: 10px;">PHP</a> <a href="/tags/SEO/" style="font-size: 10px;">SEO</a> <a href="/tags/Sublime/" style="font-size: 10px;">Sublime</a> <a href="/tags/app/" style="font-size: 10px;">app</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/jQuery/" style="font-size: 10px;">jQuery</a> <a href="/tags/jekyll/" style="font-size: 18.33px;">jekyll</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/shadowsocks/" style="font-size: 10px;">shadowsocks</a> <a href="/tags/weeklog/" style="font-size: 20px;">weeklog</a> <a href="/tags/冬/" style="font-size: 10px;">冬</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/墙/" style="font-size: 10px;">墙</a> <a href="/tags/开发/" style="font-size: 16.67px;">开发</a> <a href="/tags/折腾/" style="font-size: 10px;">折腾</a> <a href="/tags/游记/" style="font-size: 13.33px;">游记</a> <a href="/tags/计划/" style="font-size: 10px;">计划</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">一个喜欢思考的IT从业者，思想活跃且跳跃性很大，望大家谅解。</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">木頭</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="/assets/img/avatar.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">木頭</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">杂乱的信息记录与整理</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/links.html">链接</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wangxian" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/xian366" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="/wo#wangxian.me" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-past-2013-08-16-golang-pkg-vs-npm" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/past-2013-08-16-golang-pkg-vs-npm.html" class="article-date">
+  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Golang package manage VS NPM
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Go/">Go</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/weeklog/">weeklog</a></li></ul>
+	</div>
+
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/weeklog/">weeklog</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="http://ww4.sinaimg.cn/large/493b785ajw1e7r0qn9pqzj20a003wmx2.jpg"></p>
+<p>研究Go语言有段时间了（也叫Golang）现代的开发语言都有一个包管理，go也自带了一个包管理没有名字叫<code>go get</code><br>Nodejs的包管理叫npm，go get虽然简单直接，但和Node.js npm 一比还是比较弱的，粗略的讲有3个方面。</p>
+<ul>
+<li>命令行使用上的差别</li>
+<li>版本管理</li>
+<li>仓库源</li>
+</ul>
+<h2 id="命令行使用上的差别"><a href="#命令行使用上的差别" class="headerlink" title="命令行使用上的差别"></a>命令行使用上的差别</h2><p>先说命令行使用，<code>go get</code> 命令，我已知有用的只有一个参数 <code>-u</code> 更新已安装的包。没有删除已安装的包命令，<br>不能查看第三方包的介绍，不能搜索你想要的包功能，等等，和npm一比简直是弱爆了。</p>
+<p><strong>npm的功能</strong></p>
+<pre><code>Usage: npm &lt;command&gt;
+
+where &lt;command&gt; is one of:
+    add-user, adduser, apihelp, author, bin, bugs, c, cache,
+    completion, config, ddp, dedupe, deprecate, docs, edit,
+    explore, faq, find, find-dupes, get, help, help-search,
+    home, i, info, init, install, isntall, issues, la, link,
+    list, ll, ln, login, ls, outdated, owner, pack, prefix,
+    prune, publish, r, rb, rebuild, remove, repo, restart, rm,
+    root, run-script, s, se, search, set, show, shrinkwrap,
+    star, stars, start, stop, submodule, tag, test, tst, un,
+    uninstall, unlink, unpublish, unstar, up, update, version,
+    view, whoami
+</code></pre><h2 id="版本管理"><a href="#版本管理" class="headerlink" title="版本管理"></a>版本管理</h2><p>go的包，没有版号，当然goget也就没有了版本管理的功能，<br>对于npm每一个包，都有一个package.json文件描述该包，什么版本，该包依赖于那些包，<br>当你npm install的时候npm会把依赖的包安装上，更强大的是，包可以指定依赖包的版本。</p>
+<p>如果包的依赖包没有版本，就需要使用者自己确认，如果依赖包升级后，可以导致包不能使用。</p>
+<p>对于这些功能，goget，一个都冇，比起来，go还是很年轻。</p>
+<h2 id="仓库源"><a href="#仓库源" class="headerlink" title="仓库源"></a>仓库源</h2><p>npm有一个官方的仓库<a href="https://npmjs.org/" target="_blank" rel="external">https://npmjs.org/</a> , goget没有，goget在线安装只能支持<br>有限的几个源 google code, github等。</p>
+<p>没有官方源，也就不能统一管理，对包进行审核等，虽然现在npm也没有审核，但可以看到那些包是被使用和<br>下载最多的，这样大家认为好的，基本上可以确定是优质的包。</p>
+<p>没有官方源只能靠你的一双慧眼了。</p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>路漫漫其修远兮，吾将上下而求索。</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/past-2013-08-08-travel.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          去旅行和去旅游的区别
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/past-2013-08-25-todo-angular-js.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">实战AngularJS开发</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="past-2013-08-16-golang-pkg-vs-npm" data-title="Golang package manage VS NPM" data-url="https://wangxian.me/2014/past-2013-08-16-golang-pkg-vs-npm.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"wangxian"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 木頭
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: undefined,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: undefined
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+  </div>
+</body>
+</html>

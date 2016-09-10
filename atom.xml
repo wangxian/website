@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一锅粥</title>
+  <subtitle>杂乱的信息记录与整理</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wangxian.me/"/>
+  <updated>2016-09-09T15:05:00.000Z</updated>
+  <id>https://wangxian.me/</id>
+  
+  <author>
+    <name>木頭</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>这半年</title>
+    <link href="https://wangxian.me//2016/2016-2016-08-30-2016-half.html"/>
+    <id>https://wangxian.me//2016/2016-2016-08-30-2016-half.html</id>
+    <published>2016-08-30T15:00:23.000Z</published>
+    <updated>2016-09-09T15:05:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>转眼间大半年过去了，<br>日子在忙碌中流淌，<br>肚子在不经意间增长。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;转眼间大半年过去了，&lt;br&gt;日子在忙碌中流淌，&lt;br&gt;肚子在不经意间增长。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>APP plan</title>
+    <link href="https://wangxian.me//2015/2015-2015-10-30-app-plan.html"/>
+    <id>https://wangxian.me//2015/2015-2015-10-30-app-plan.html</id>
+    <published>2015-11-02T06:03:41.000Z</published>
+    <updated>2015-11-02T06:52:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/mw1024/493b785agw1exmm4yemhaj20hs0dc76b.jpg" style="width:100%;padding:0;"></p>
+<p>搁置了多年的计划，时机终于成熟了，虽然有些偏差，但实施起来简单，<br>准备开发一个手机APP应用，基础框架已经打好了。<br>接下来就是填充功能和打磨了。</p>
+<p>使用ionic开发真是非常爽的事情。  </p>
+<p>ionic基于iOS/Android -&gt; phonegap/cordova-&gt; Angular.js -&gt; ionic 耦合性小，<br>正确的工具，做正确的事情。</p>
+<p>－（完）－</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/493b785agw1exmm4yemhaj20hs0dc76b.jpg&quot; style=&quot;width:100%;padding:0;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;搁置了多年的计划，时机终于成熟了，虽然有些偏
+    
+    </summary>
+    
+    
+      <category term="app" scheme="https://wangxian.me/tags/app/"/>
+    
+      <category term="计划" scheme="https://wangxian.me/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker your vps</title>
+    <link href="https://wangxian.me//2015/2015-2015-10-26-docker-your-vps.html"/>
+    <id>https://wangxian.me//2015/2015-2015-10-26-docker-your-vps.html</id>
+    <published>2015-10-26T16:48:31.000Z</published>
+    <updated>2015-11-02T06:37:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>为了切换vps方便，彻底的把原vps中的应用docker化，<br>下次切换vps，真的可以分分钟搞定了！</p>
+<p>－（完）－</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为了切换vps方便，彻底的把原vps中的应用docker化，&lt;br&gt;下次切换vps，真的可以分分钟搞定了！&lt;/p&gt;
+&lt;p&gt;－（完）－&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker try</title>
+    <link href="https://wangxian.me//2015/2015-2015-09-10-docker-try.html"/>
+    <id>https://wangxian.me//2015/2015-2015-09-10-docker-try.html</id>
+    <published>2015-09-10T10:52:28.000Z</published>
+    <updated>2015-11-02T06:37:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>年前沈头让研究一下docker在开发环境的应用场景，对docker做了一个初步的研究，<br>然后就没有然后了。</p>
+<p>8月份的一天，无意间发现了daocloud.io平台，遂重新产生来浓厚的兴趣。<br>然后一发不可收拾，从到daocloud平台，镜像，到自动构建，然后alpine，到编译自己的镜像，<br>结果是基于alpine搞了2个自己的基础镜像。</p>
+<p>喜欢的可以去看看，在hub.docker.com可以看到，<em>wangxian/alpine-node</em> 和 <em>wangxian/alpine-php</em> </p>
+<p>然后思考docker的日志系统，如何记录日志，日志搜集。</p>
+<p>再然后，把一个前端项目部署到了daocloud，为了研究docker，还重新买了一个kvm  vps（之前的vps时基于openvz的，内核太低，且内核不能升级）,手上的几个服务器也尝试安装了docker，个人电脑上尝试了docker-machine，其中docker-machine时官方新推荐的（也是boot2docker镜像）</p>
+<p>－（完）－</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;年前沈头让研究一下docker在开发环境的应用场景，对docker做了一个初步的研究，&lt;br&gt;然后就没有然后了。&lt;/p&gt;
+&lt;p&gt;8月份的一天，无意间发现了daocloud.io平台，遂重新产生来浓厚的兴趣。&lt;br&gt;然后一发不可收拾，从到daocloud平台，镜像，到自动构建
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AngularJS retry</title>
+    <link href="https://wangxian.me//2015/2015-2015-07-08-angularjs-retry.html"/>
+    <id>https://wangxian.me//2015/2015-2015-07-08-angularjs-retry.html</id>
+    <published>2015-07-09T11:00:53.000Z</published>
+    <updated>2015-11-02T06:36:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/mw690/493b785agw1etwqr9snncj20hs0dcgn3.jpg" style="width: 100%;"></p>
+<p>时隔两年，<br>AngularJS 也发展了好多个版本，最近的有些界面中AngularJS，回头再看，有种如隔三秋的感觉。  </p>
+<p>作为一个前端的技术方案，能让后端的同学快速上手，值得很赞👍。<br>AngularJS 社区也很火热，有问题，能很快都找到解决方案。  </p>
+<p>这两年从 MVVM 到 VirtualDOM 快速演进，大前段技术激进、蓬勃、迅速发展。  </p>
+<p>我心飞翔！</p>
+<p>－（完）－</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/493b785agw1etwqr9snncj20hs0dcgn3.jpg&quot; style=&quot;width: 100%;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;时隔两年，&lt;br&gt;AngularJS 也发展了好多个版本，最近的
+    
+    </summary>
+    
+      <category term="weeklog" scheme="https://wangxian.me/categories/weeklog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>brew php</title>
+    <link href="https://wangxian.me//2015/2015-2015-05-16-brew-php.html"/>
+    <id>https://wangxian.me//2015/2015-2015-05-16-brew-php.html</id>
+    <published>2015-04-04T02:14:42.000Z</published>
+    <updated>2015-05-16T00:15:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>把自带的 PHP 环境（Apache+PHP），使用 brew 安装了 Nginx+PHP</p>
+<p>其实早就应该舍弃了 OSX 自带的 PHP 环境了，每次 OSX 一升级，就要折腾一遍，并且缺少各种模块，<br>折腾了几年，折腾烦了。</p>
+<p>使用 brew 管理 PHP 安装，升级都很方便，安装模块也很方便，一条命令就 OK</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;把自带的 PHP 环境（Apache+PHP），使用 brew 安装了 Nginx+PHP&lt;/p&gt;
+&lt;p&gt;其实早就应该舍弃了 OSX 自带的 PHP 环境了，每次 OSX 一升级，就要折腾一遍，并且缺少各种模块，&lt;br&gt;折腾了几年，折腾烦了。&lt;/p&gt;
+&lt;p&gt;使用 brew 
+    
+    </summary>
+    
+      <category term="weeklog" scheme="https://wangxian.me/categories/weeklog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>New start</title>
+    <link href="https://wangxian.me//2015/2015-2015-04-01-new-start.html"/>
+    <id>https://wangxian.me//2015/2015-2015-04-01-new-start.html</id>
+    <published>2015-04-04T02:14:42.000Z</published>
+    <updated>2015-11-02T06:37:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/mw690/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg" alt=""><br>4.1 这个特殊的日子，换了工作，换了办公地点。</p>
+<p>预计这个四月份，是一个忙碌的季节。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;4.1 这个特殊的日子，换了工作，换了办公地点。&lt;/p&gt;
+&lt;p&gt;预计这个四月份，是一个忙碌的季节。&lt;
+    
+    </summary>
+    
+      <category term="weeklog" scheme="https://wangxian.me/categories/weeklog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Support site search</title>
+    <link href="https://wangxian.me//2015/2015-2015-01-06-support-site-search.html"/>
+    <id>https://wangxian.me//2015/2015-2015-01-06-support-site-search.html</id>
+    <published>2015-01-06T03:27:07.000Z</published>
+    <updated>2015-11-02T06:43:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用<code>gso</code>搭建了一个 Google 搜索代理，<br>突然来了兴致，给 wangxian.me 加上了一个站内搜索功能。<br>地址：<a href="/search.html">/search.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用&lt;code&gt;gso&lt;/code&gt;搭建了一个 Google 搜索代理，&lt;br&gt;突然来了兴致，给 wangxian.me 加上了一个站内搜索功能。&lt;br&gt;地址：&lt;a href=&quot;/search.html&quot;&gt;/search.html&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="google" scheme="https://wangxian.me/tags/google/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这个冬天</title>
+    <link href="https://wangxian.me//2014/2014-2014-12-24-2014-winter.html"/>
+    <id>https://wangxian.me//2014/2014-2014-12-24-2014-winter.html</id>
+    <published>2014-12-24T02:35:17.000Z</published>
+    <updated>2014-12-24T02:38:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/mw690/493b785atw1enkke6gjg7j20iw0btwgw.jpg" alt=""></p>
+<p>这个冬天，有点忙，<br>记录这个特殊的冬天；</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/493b785atw1enkke6gjg7j20iw0btwgw.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这个冬天，有点忙，&lt;br&gt;记录这个特殊的冬天；&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="冬" scheme="https://wangxian.me/tags/%E5%86%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>穿墙术</title>
+    <link href="https://wangxian.me//2014/2014-2014-10-21-wall.html"/>
+    <id>https://wangxian.me//2014/2014-2014-10-21-wall.html</id>
+    <published>2014-10-21T01:46:50.000Z</published>
+    <updated>2014-10-21T02:13:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装（使用 Nodejs npm 进行安装，不建议全局安装）</p>
+<blockquote>
+<p>npm install shadowsocks</p>
+</blockquote>
+<p>修改 node_modules/shadowsocks/config.json</p>
+<pre><code>{
+  &quot;server&quot;:&quot;my_server_ip&quot;,
+  &quot;server_port&quot;:8388,
+  &quot;local_port&quot;:1080,
+  &quot;password&quot;:&quot;barfoo!&quot;,
+  &quot;timeout&quot;:600,
+  &quot;method&quot;:&quot;table&quot;,
+  &quot;local_address&quot;:&quot;127.0.0.1&quot;
+}
+</code></pre><p>启动, 建议使用 pm2 进行守护启动</p>
+<blockquote>
+<p>pm2 start node_modules/shadowsocks/bin/ssserver</p>
+</blockquote>
+<p>更多 shadowsocks-nodejs 移步到 <a href="https://github.com/clowwindy/shadowsocks-nodejs" target="_blank" rel="external">https://github.com/clowwindy/shadowsocks-nodejs</a></p>
+<p>客户端配置和服务器 shadowsocks 配置差不多，不过建议客户端使用 cow 更好, 支持智能PAC<br>智能学习被屏蔽的网址，那些直连，基本上不用手工设置，如果有多个代理服务器，<br>可以进行简单的负载均衡。cow是golang开发，安装很简单，项目地址：<a href="https://github.com/cyfdecyf/cow" target="_blank" rel="external">https://github.com/cyfdecyf/cow</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;安装（使用 Nodejs npm 进行安装，不建议全局安装）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;npm install shadowsocks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改 node_modules/shadowsocks/config.json&lt;/
+    
+    </summary>
+    
+    
+      <category term="墙" scheme="https://wangxian.me/tags/%E5%A2%99/"/>
+    
+      <category term="shadowsocks" scheme="https://wangxian.me/tags/shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>老树逢春-光驱变硬盘</title>
+    <link href="https://wangxian.me//2014/2014-2014-10-09-mbp-cdrom2disk.html"/>
+    <id>https://wangxian.me//2014/2014-2014-10-09-mbp-cdrom2disk.html</id>
+    <published>2014-08-25T06:21:46.000Z</published>
+    <updated>2014-10-09T02:20:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自己动手把我的 MacBook Pro 之前拆掉的 SATA 硬盘重新装回去，已解决日益紧张的 SSD 硬盘的紧张<br>局面。再亚马逊上买了硬盘支架，参考教程<a href="http://bbs.feng.com/read-htm-tid-4265042.html" target="_blank" rel="external">http://bbs.feng.com/read-htm-tid-4265042.html</a><br>完美把光驱位变成硬盘。</p>
+<p>我的这个陪伴了我3年多的家伙，一直不忍心换新设备，廉颇不老，看来缝缝补补还能使用上三年，哈哈！</p>
+<p>后记：<br>变身历史，SATA硬盘-&gt;SSD 硬盘-&gt;硬盘换光驱-&gt;…<br>下一步计划把4G内存升8G，看来再用三年未尝不可。）</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自己动手把我的 MacBook Pro 之前拆掉的 SATA 硬盘重新装回去，已解决日益紧张的 SSD 硬盘的紧张&lt;br&gt;局面。再亚马逊上买了硬盘支架，参考教程&lt;a href=&quot;http://bbs.feng.com/read-htm-tid-4265042.html&quot; t
+    
+    </summary>
+    
+      <category term="weeklog" scheme="https://wangxian.me/categories/weeklog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>online develop</title>
+    <link href="https://wangxian.me//2014/2014-2014-08-25-online-develop.html"/>
+    <id>https://wangxian.me//2014/2014-2014-08-25-online-develop.html</id>
+    <published>2014-08-25T06:21:46.000Z</published>
+    <updated>2014-10-09T02:09:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>后记：<br>国内也发现了一个比较好的在线平台，功能一样强大，界面OK<br><a href="https://coding.net" target="_blank" rel="external">https://coding.net</a></p>
+</blockquote>
+<hr>
+<p>推荐2个比较不错的在线开发平台</p>
+<ul>
+<li><a href="https://www.nitrous.io/" target="_blank" rel="external">https://www.nitrous.io/</a></li>
+<li><a href="https://koding.com/" target="_blank" rel="external">https://koding.com/</a></li>
+</ul>
+<p>都比较不错, 相比Nitrous, Koding界面更漂亮一些。<br>他们都支持多语言环境，PHP/Ruby/Node.js/Java/Go；</p>
+<p>提供一个仿真的VPS，可登录，并且有外网端口，可以调试程序，<br>但不能关闭网页，关闭后一段时间，仿真VPS就被关闭了，<br>要持续运行，需要花钱。  </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;后记：&lt;br&gt;国内也发现了一个比较好的在线平台，功能一样强大，界面OK&lt;br&gt;&lt;a href=&quot;https://coding.net&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://coding.net&lt;/a&gt;&lt;/p
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>哈尔滨之行</title>
+    <link href="https://wangxian.me//2014/2014-2014-08-18-haerbin.html"/>
+    <id>https://wangxian.me//2014/2014-2014-08-18-haerbin.html</id>
+    <published>2014-08-19T07:47:04.000Z</published>
+    <updated>2014-08-19T08:35:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>目标: 哈尔滨<br>时间: 2014-08-14  </p>
+<p>图文并茂<br><a target="_blank" href="http://breadtrip.com/trips/2388070448/">http://breadtrip.com/trips/2388070448/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;目标: 哈尔滨&lt;br&gt;时间: 2014-08-14  &lt;/p&gt;
+&lt;p&gt;图文并茂&lt;br&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://breadtrip.com/trips/2388070448/&quot;&gt;http://breadtrip.com/trips/23
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>backbone extend analysis</title>
+    <link href="https://wangxian.me//2014/2014-2014-08-10-backbone-extend-analysis.html"/>
+    <id>https://wangxian.me//2014/2014-2014-08-10-backbone-extend-analysis.html</id>
+    <published>2014-08-11T02:07:13.000Z</published>
+    <updated>2014-08-11T03:05:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Backbone.Model.extend &amp; Backbone.Collection.extend &amp; Backbone.View.extend</p>
+<p>未完待续…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Backbone.Model.extend &amp;amp; Backbone.Collection.extend &amp;amp; Backbone.View.extend&lt;/p&gt;
+&lt;p&gt;未完待续…&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>backbone.vm begining</title>
+    <link href="https://wangxian.me//2014/2014-2014-08-11-backbone-mvvm.html"/>
+    <id>https://wangxian.me//2014/2014-2014-08-11-backbone-mvvm.html</id>
+    <published>2014-08-11T01:58:44.000Z</published>
+    <updated>2014-08-11T09:32:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>正在开发一个MVVM Module, 基于Backbone, 名称：<a href="http://github.com/wangxian/backbone.vm" target="_blank" rel="external">backbone.vm</a><br>实现 Backbone.Model 和 HTML DOM的双向数据绑定；兼容Chrome*/IE6+/Safari…</p>
+<h1 id="1-Why-New-MVVM"><a href="#1-Why-New-MVVM" class="headerlink" title="1. Why New MVVM?"></a>1. Why New MVVM?</h1><p>为什么要开发一个MVVM？ 原因很简单，眼馋Angular.js的方便，但讨厌其复杂规则，冗余<br>的功能设计，不可控性高，性能低，且在国内不支持老浏览器(虽然可以经过特殊的手段可以支持，但…)</p>
+<p>实际工作中Backbone的使用最广泛，且比较灵活，考察了一下国内外MVVM库，<br>暂无比较好用的解决方案（angular.js/backbone.stickit/avalon.js/Knockback.js）考虑过<br>是基于现有的轮子再造轮子，还是造一个新轮子，avalon.js从零造了一个新轮子，成本较高也较复杂。<br>如果是现有的基础上，省去了很多问题，但也带来了别的问题，如依赖多。</p>
+<p>功能的实际上，简单，实用就够了。 对于节点属性选择上，只增加一个节点属性vm=”val:username”,<br>不提供xx-controller, xx-html等标记，所有的都放到vm属性里，对于控制器（或VM的作用范围）<br>在定义VM类时指定，VM类初始化的时候，进行扫描节点, 建立DOM VIEW和MODEL的双向映射关系。</p>
+<p>不使用对象监听属性变化，直接使用Backbone.Model来存储VM, 好处是不用做兼容，现成的。  </p>
+<p>这样，简单、高效、上手快、兼容多浏览器，不是难事儿！</p>
+<h1 id="2-Feature-List"><a href="#2-Feature-List" class="headerlink" title="2. Feature List"></a>2. Feature List</h1><ol>
+<li>视图和数据的双向绑定</li>
+<li>兼容性 Chrome*/IE6+/Safari</li>
+<li>操作方法直接使用jQuery关键字，html, val, text…</li>
+<li>依赖库可使用jQuery/Zepto, Underscore/lodash替换</li>
+</ol>
+<h1 id="3-Timeline"><a href="#3-Timeline" class="headerlink" title="3. Timeline"></a>3. Timeline</h1><ul>
+<li>基本功能开发(进行中)</li>
+<li>兼容性检查</li>
+<li>代码优化</li>
+<li>文档完善</li>
+<li>功能示例完善</li>
+<li>发布到spm</li>
+<li>修改BUG</li>
+<li>功能增强</li>
+<li>迭代</li>
+</ul>
+<hr>
+<p>相关链接：</p>
+<ul>
+<li>github repo <a href="https://github.com/wangxian/backbone.vm" target="_blank" rel="external">https://github.com/wangxian/backbone.vm</a></li>
+<li>spm doc <a href="http://spmjs.io/docs/backbone.vm/latest/" target="_blank" rel="external">http://spmjs.io/docs/backbone.vm/latest/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;正在开发一个MVVM Module, 基于Backbone, 名称：&lt;a href=&quot;http://github.com/wangxian/backbone.vm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;backbone.vm&lt;/a&gt;&lt;br&gt;实现 B
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://wangxian.me/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="https://wangxian.me/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拼音输入法</title>
+    <link href="https://wangxian.me//2014/2014-2014-08-01-shurufa.html"/>
+    <id>https://wangxian.me//2014/2014-2014-08-01-shurufa.html</id>
+    <published>2014-08-03T08:51:51.000Z</published>
+    <updated>2014-08-11T03:42:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/mw690/493b785agw1eizl31w7vdj20iw0ala9z.jpg" alt=""></p>
+<p>在v2ex上听人说Mac自带拼音输入法还可以，尝试将他作为首选输入法，用了2个礼拜，基本上能满足日常的需求。<br>有一点实在是无法忍受，中文状态下不能输入英文大写，<code>caps lock</code> 键功能是切换中英文，要输入<br>英文大写只能按住shift一个个的输入，我在工作中提交git，要输入英文大写关键字，<br>这样的设计别扭至极。  </p>
+<p>国内的输入法: 百度输入法，搜狗输入法，QQ输入法，这几个都使用过，最好用的要数百度输入法，<br>算是百度为数不多的几个好产品吧，哈哈。但是国内的输入法有个通病，功能冗余，很多功能没必要的<br>就不要添加，或者做成插件的形式，可以手工的选择，产品经理们请控制好你们的产品，<br>功能多，未必是好事儿。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/493b785agw1eizl31w7vdj20iw0ala9z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在v2ex上听人说Mac自带拼音输入法还可以，尝试将他作为首选输入法，用了2个礼拜，基本上能
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Golang包版本管理</title>
+    <link href="https://wangxian.me//2014/2014-2014-07-07-gpm-gvp.html"/>
+    <id>https://wangxian.me//2014/2014-2014-07-07-gpm-gvp.html</id>
+    <published>2014-07-07T09:29:10.000Z</published>
+    <updated>2014-07-15T02:44:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直Golang缺少版本管理工具，go get 按照包只能从有限的几个源下载包，且包没有版本号，<br>如果项目中使用老的包，就没法了，一直再想go get如果有版本号多好。</p>
+<p>终于发现了一个管理工具：<code>gpm</code> 和 <code>gvp</code></p>
+<p>gpm是依赖包下载工具，gvp是改变$GOPATH工具，工具类似Python virtualenv</p>
+<h1 id="一、使用方法："><a href="#一、使用方法：" class="headerlink" title="一、使用方法："></a>一、使用方法：</h1><p>1、在根目录定义一个 Godeps 文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ cat Godeps</div><div class="line">github.com/nu7hatch/gotrail               v0.0.2</div><div class="line">github.com/replicon/fast-archiver         v1.02</div><div class="line">launchpad.net/gocheck                     r2013.03.03   # Bazaar repositories are supported</div><div class="line">code.google.com/p/go.example/hello/...    ae081cd1d6cc  # And so are Mercurial ones</div></pre></td></tr></table></figure>
+<p>2、下载依赖包 gopm install</p>
+<p>3、设置$GOPATH</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># in</div><div class="line">source gvp in</div><div class="line"># out</div><div class="line">source gvp out</div></pre></td></tr></table></figure>
+<p>然后执行一下 go env 看一下环境变量。</p>
+<h1 id="二、Install-on-Mac-OS-X"><a href="#二、Install-on-Mac-OS-X" class="headerlink" title="二、Install on Mac OS X"></a>二、Install on Mac OS X</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo brew install gpm</div><div class="line">sudo brew install gvp</div></pre></td></tr></table></figure>
+<p>其他系统的安装，参考下面的参考网站。</p>
+<h1 id="三、其他"><a href="#三、其他" class="headerlink" title="三、其他"></a>三、其他</h1><p>gpm、gvp 如果是一个命令就更好了，分成了2个项目。<br>还有就是，如果能改变命令提示符的前缀$PS1就更好了(类似virtualenv）这样可以直接看到<br>已经进入新的gopath下，退出后，在进入之前的gopath。  </p>
+<h1 id="四、参考网站"><a href="#四、参考网站" class="headerlink" title="四、参考网站"></a>四、参考网站</h1><ul>
+<li><a href="https://github.com/pote/gpm" target="_blank" rel="external">https://github.com/pote/gpm</a></li>
+<li><a href="https://github.com/pote/gvp" target="_blank" rel="external">https://github.com/pote/gvp</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一直Golang缺少版本管理工具，go get 按照包只能从有限的几个源下载包，且包没有版本号，&lt;br&gt;如果项目中使用老的包，就没法了，一直再想go get如果有版本号多好。&lt;/p&gt;
+&lt;p&gt;终于发现了一个管理工具：&lt;code&gt;gpm&lt;/code&gt; 和 &lt;code&gt;gvp&lt;/
+    
+    </summary>
+    
+    
+      <category term="Go" scheme="https://wangxian.me/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国内CDN公共库</title>
+    <link href="https://wangxian.me//2014/2014-2014-06-25-cn-cdn-repo.html"/>
+    <id>https://wangxian.me//2014/2014-2014-06-25-cn-cdn-repo.html</id>
+    <published>2014-06-25T03:21:49.000Z</published>
+    <updated>2014-06-27T08:30:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>本文收集了一些国内大厂提供的CDN加速服务，
+供大家在需要的时候使用。
+</code></pre><ul>
+<li>七牛静态文件CDN <a href="http://www.staticfile.org/" target="_blank" rel="external">http://www.staticfile.org/</a></li>
+<li>又拍云JS库 <a href="http://jscdn.upai.com/" target="_blank" rel="external">http://jscdn.upai.com/</a></li>
+<li>CDNJS国内镜像 <a href="http://www.cdnjs.cn/" target="_blank" rel="external">http://www.cdnjs.cn/</a></li>
+<li>360网站CDN,包括常用库、Google公共库镜像、Google免费字体镜像 <a href="http://libs.useso.com/" target="_blank" rel="external">http://libs.useso.com/</a></li>
+<li>百度静态资源公共库 <a href="http://cdn.code.baidu.com/" target="_blank" rel="external">http://cdn.code.baidu.com/</a></li>
+<li>百度CDN公共库 <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs" target="_blank" rel="external">http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs</a></li>
+<li>新浪云CDN公共库 <a href="http://lib.sinaapp.com/" target="_blank" rel="external">http://lib.sinaapp.com/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;本文收集了一些国内大厂提供的CDN加速服务，
+供大家在需要的时候使用。
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;七牛静态文件CDN &lt;a href=&quot;http://www.staticfile.org/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://wangxian.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="CDN" scheme="https://wangxian.me/tags/CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx proxy cache</title>
+    <link href="https://wangxian.me//2014/2014-2014-06-26-nginx-proxy-cache.html"/>
+    <id>https://wangxian.me//2014/2014-2014-06-26-nginx-proxy-cache.html</id>
+    <published>2014-06-24T03:57:07.000Z</published>
+    <updated>2014-06-26T09:47:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为网站使用jekyll托管在github pages上，迁移到国内后使用nginx proxy的方式，<br>但是速度还是很慢，后发现可以使用nginx_cache的来解决。</p>
+<p>nginx_cache早已经内置在nginx的稳定版中，只要在配置的时候，指定就行了。<br>具体步骤：  </p>
+<p>第一步：在server外配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 注：proxy_temp_path和proxy_cache_path指定的路径必须在同一分区</div><div class="line">proxy_temp_path /data0/proxy_temp_dir;</div><div class="line"></div><div class="line"># 设置Web缓存区名称为cache_one，内存缓存空间大小为200MB，</div><div class="line"># 1天没有被访问的内容自动清除，硬盘缓存空间大小为30GB。</div><div class="line">proxy_cache_path /data0/proxy_cache_dir levels=1:2 keys_zone=cache_one:200m inactive=1d max_size=5g;</div></pre></td></tr></table></figure>
+<p>第二步：在server内指定proxy_cache 和 proxy_cache_key</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">location / &#123;</div><div class="line">  proxy_pass http://wangxian.me/;</div><div class="line"></div><div class="line">  proxy_cache cache_one;</div><div class="line">  proxy_cache_key $host$uri$is_args$args;</div><div class="line"></div><div class="line">  proxy_redirect off;</div><div class="line">  proxy_set_header X-Real-IP $remote_addr;</div><div class="line">  proxy_set_header REMOTE-HOST $remote_addr;</div><div class="line">  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</div><div class="line">  proxy_set_header Cookie $http_cookie;</div><div class="line">  </div><div class="line">  # ... 其他代理的配置</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>这样在浏览的的时候，nginx就会缓存。<br>如果更新了网站要清理缓存，需要去/data0/proxy_cache_dir目录删除所有缓存，<br>那能不能按照URL去更新呢？答案是肯定的，这个第三方的模块叫 <code>ngx_cache_purge</code></p>
+<h3 id="安装-ngx-cache-purge"><a href="#安装-ngx-cache-purge" class="headerlink" title="安装 ngx_cache_purge"></a>安装 ngx_cache_purge</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">1. 下载：</div><div class="line">wget http://labs.frickle.com/files/ngx_cache_purge-2.1.tar.gz</div><div class="line"></div><div class="line">2. 解压</div><div class="line"></div><div class="line">3. 配置</div><div class="line">./configure --user=www --group=www --prefix=/usr/local/nginx \</div><div class="line">--with-http_stub_status_module --with-http_ssl_module \</div><div class="line">--with-http_gzip_static_module \</div><div class="line">--with-ipv6 --add-module=../ngx_cache_purge-2.1 \</div><div class="line"></div><div class="line">4. 安装</div><div class="line">make &amp;&amp; make install</div><div class="line"></div><div class="line">5. 配置nginx</div><div class="line"></div><div class="line"># 用于清除缓存</div><div class="line"># 如果清理 http://wangxian.me/archive.html 缓存，</div><div class="line"># 访问 http://wangxian.me/purge/archive.html 就可以清理缓存了</div><div class="line">location ~ /purge(/.*) &#123;</div><div class="line">    # 设置只允许指定的IP或IP段才可以清除URL缓存。</div><div class="line">    allow 127.0.0.1;</div><div class="line">    allow 192.168.0.0/16;</div><div class="line">    deny all;</div><div class="line">    proxy_cache_purge cache_one host$1$is_args$args;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>是不是觉得速度快多了。</p>
+<h3 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h3><ul>
+<li><a href="http://wiki.nginx.org/HttpProxyModule" target="_blank" rel="external">http://wiki.nginx.org/HttpProxyModule</a></li>
+<li><a href="http://wiki.nginx.org/CachePurgeChs" target="_blank" rel="external">http://wiki.nginx.org/CachePurgeChs</a></li>
+<li><a href="http://zyan.cc/nginx_cache/" target="_blank" rel="external">http://zyan.cc/nginx_cache/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为网站使用jekyll托管在github pages上，迁移到国内后使用nginx proxy的方式，&lt;br&gt;但是速度还是很慢，后发现可以使用nginx_cache的来解决。&lt;/p&gt;
+&lt;p&gt;nginx_cache早已经内置在nginx的稳定版中，只要在配置的时候，指定就行
+    
+    </summary>
+    
+    
+      <category term="jekyll" scheme="https://wangxian.me/tags/jekyll/"/>
+    
+      <category term="nginx" scheme="https://wangxian.me/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html meta description</title>
+    <link href="https://wangxian.me//2014/2014-2014-06-24-html-description.html"/>
+    <id>https://wangxian.me//2014/2014-2014-06-24-html-description.html</id>
+    <published>2014-06-24T03:10:09.000Z</published>
+    <updated>2014-06-24T03:54:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>突然发现一个问题，前几天把网站 _layout/default.html 中的添加了<code>HTML&gt;META[description]</code>属性，<br>这导致了一个比较严重的问题，Google收录网站，Google搜出来的所有描述，<br>都变成了设置成的description信息。</p>
+<p>查了一下<code>HTML&gt;META[description]</code>的使用场景。</p>
+<pre><code>description用于定义网页简短描述
+description出现在name属性中，使用content属性提供网页的简短描述
+</code></pre><p>不能每个页面的描述信息都一样，尤其是文章页。最后加上了判断，只有首页有完整的描述信息。<br>别的界面没有描述信息。</p>
+<p>- 完 - </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;突然发现一个问题，前几天把网站 _layout/default.html 中的添加了&lt;code&gt;HTML&amp;gt;META[description]&lt;/code&gt;属性，&lt;br&gt;这导致了一个比较严重的问题，Google收录网站，Google搜出来的所有描述，&lt;br&gt;都变成了设置
+    
+    </summary>
+    
+    
+      <category term="开发" scheme="https://wangxian.me/tags/%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+</feed>
