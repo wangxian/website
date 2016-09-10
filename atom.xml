@@ -40,9 +40,9 @@
     <link href="https://wangxian.me//2015/2015-2015-10-30-app-plan.html"/>
     <id>https://wangxian.me//2015/2015-2015-10-30-app-plan.html</id>
     <published>2015-11-02T06:03:41.000Z</published>
-    <updated>2015-11-02T06:52:00.000Z</updated>
+    <updated>2016-09-10T03:18:57.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/mw1024/493b785agw1exmm4yemhaj20hs0dc76b.jpg" style="width:100%;padding:0;"></p>
+    <content type="html"><![CDATA[<p><img src="/assets/post/493b785agw1exmm4yemhaj20hs0dc76b.jpg" style="width:100%;padding:0;"></p>
 <p>搁置了多年的计划，时机终于成熟了，虽然有些偏差，但实施起来简单，<br>准备开发一个手机APP应用，基础框架已经打好了。<br>接下来就是填充功能和打磨了。</p>
 <p>使用ionic开发真是非常爽的事情。  </p>
 <p>ionic基于iOS/Android -&gt; phonegap/cordova-&gt; Angular.js -&gt; ionic 耦合性小，<br>正确的工具，做正确的事情。</p>
@@ -51,8 +51,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/493b785agw1exmm4yemhaj20hs0dc76b.jpg&quot; style=&quot;width:100%;padding:0;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;搁置了多年的计划，时机终于成熟了，虽然有些偏
+      &lt;p&gt;&lt;img src=&quot;/assets/post/493b785agw1exmm4yemhaj20hs0dc76b.jpg&quot; style=&quot;width:100%;padding:0;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;搁置了多年的计划，时机终于成熟了，虽然有些偏差，但实施起来简单，&lt;br&gt;准备
     
     </summary>
     
@@ -68,7 +68,7 @@
     <link href="https://wangxian.me//2015/2015-2015-10-26-docker-your-vps.html"/>
     <id>https://wangxian.me//2015/2015-2015-10-26-docker-your-vps.html</id>
     <published>2015-10-26T16:48:31.000Z</published>
-    <updated>2015-11-02T06:37:43.000Z</updated>
+    <updated>2016-09-10T03:18:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>为了切换vps方便，彻底的把原vps中的应用docker化，<br>下次切换vps，真的可以分分钟搞定了！</p>
 <p>－（完）－</p>
@@ -90,7 +90,7 @@
     <link href="https://wangxian.me//2015/2015-2015-09-10-docker-try.html"/>
     <id>https://wangxian.me//2015/2015-2015-09-10-docker-try.html</id>
     <published>2015-09-10T10:52:28.000Z</published>
-    <updated>2015-11-02T06:37:36.000Z</updated>
+    <updated>2016-09-10T03:18:40.000Z</updated>
     
     <content type="html"><![CDATA[<p>年前沈头让研究一下docker在开发环境的应用场景，对docker做了一个初步的研究，<br>然后就没有然后了。</p>
 <p>8月份的一天，无意间发现了daocloud.io平台，遂重新产生来浓厚的兴趣。<br>然后一发不可收拾，从到daocloud平台，镜像，到自动构建，然后alpine，到编译自己的镜像，<br>结果是基于alpine搞了2个自己的基础镜像。</p>
@@ -115,9 +115,9 @@
     <link href="https://wangxian.me//2015/2015-2015-07-08-angularjs-retry.html"/>
     <id>https://wangxian.me//2015/2015-2015-07-08-angularjs-retry.html</id>
     <published>2015-07-09T11:00:53.000Z</published>
-    <updated>2015-11-02T06:36:08.000Z</updated>
+    <updated>2016-09-10T03:18:32.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/mw690/493b785agw1etwqr9snncj20hs0dcgn3.jpg" style="width: 100%;"></p>
+    <content type="html"><![CDATA[<p><img src="/assets/post/493b785agw1etwqr9snncj20hs0dcgn3.jpg" style="width: 100%;"></p>
 <p>时隔两年，<br>AngularJS 也发展了好多个版本，最近的有些界面中AngularJS，回头再看，有种如隔三秋的感觉。  </p>
 <p>作为一个前端的技术方案，能让后端的同学快速上手，值得很赞👍。<br>AngularJS 社区也很火热，有问题，能很快都找到解决方案。  </p>
 <p>这两年从 MVVM 到 VirtualDOM 快速演进，大前段技术激进、蓬勃、迅速发展。  </p>
@@ -127,8 +127,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/493b785agw1etwqr9snncj20hs0dcgn3.jpg&quot; style=&quot;width: 100%;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;时隔两年，&lt;br&gt;AngularJS 也发展了好多个版本，最近的
+      &lt;p&gt;&lt;img src=&quot;/assets/post/493b785agw1etwqr9snncj20hs0dcgn3.jpg&quot; style=&quot;width: 100%;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;时隔两年，&lt;br&gt;AngularJS 也发展了好多个版本，最近的有些界面中AngularJS，
     
     </summary>
     
@@ -167,16 +167,17 @@
     <link href="https://wangxian.me//2015/2015-2015-04-01-new-start.html"/>
     <id>https://wangxian.me//2015/2015-2015-04-01-new-start.html</id>
     <published>2015-04-04T02:14:42.000Z</published>
-    <updated>2015-11-02T06:37:27.000Z</updated>
+    <updated>2016-09-10T03:18:07.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/mw690/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg" alt=""><br>4.1 这个特殊的日子，换了工作，换了办公地点。</p>
+    <content type="html"><![CDATA[<p><img src="/assets/post/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg" alt=""><br>4.1 这个特殊的日子，换了工作，换了办公地点。</p>
 <p>预计这个四月份，是一个忙碌的季节。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;4.1 这个特殊的日子，换了工作，换了办公地点。&lt;/p&gt;
-&lt;p&gt;预计这个四月份，是一个忙碌的季节。&lt;
+      &lt;p&gt;&lt;img src=&quot;/assets/post/493b785ajw1eqtc4q41x0j21ao0q9qgr.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;4.1 这个特殊的日子，换了工作，换了办公地点。&lt;/p&gt;
+&lt;p&gt;预计这个四月份，是一个忙碌的季节。&lt;/p&gt;
+
     
     </summary>
     
@@ -212,15 +213,15 @@
     <link href="https://wangxian.me//2014/2014-2014-12-24-2014-winter.html"/>
     <id>https://wangxian.me//2014/2014-2014-12-24-2014-winter.html</id>
     <published>2014-12-24T02:35:17.000Z</published>
-    <updated>2014-12-24T02:38:34.000Z</updated>
+    <updated>2016-09-10T03:19:20.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/mw690/493b785atw1enkke6gjg7j20iw0btwgw.jpg" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="/assets/post/493b785atw1enkke6gjg7j20iw0btwgw.jpg" alt=""></p>
 <p>这个冬天，有点忙，<br>记录这个特殊的冬天；</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/493b785atw1enkke6gjg7j20iw0btwgw.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/assets/post/493b785atw1enkke6gjg7j20iw0btwgw.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;这个冬天，有点忙，&lt;br&gt;记录这个特殊的冬天；&lt;/p&gt;
 
     
