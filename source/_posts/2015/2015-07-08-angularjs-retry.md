@@ -7,7 +7,7 @@ tags:
   - 
 ---
 
-<img src="http://ww2.sinaimg.cn/mw690/493b785agw1etwqr9snncj20hs0dcgn3.jpg" style="width: 100%;">
+<img src="/assets/post/493b785agw1etwqr9snncj20hs0dcgn3.jpg" style="width: 100%;">
 
 时隔两年，  
 AngularJS 也发展了好多个版本，最近的有些界面中AngularJS，回头再看，有种如隔三秋的感觉。  

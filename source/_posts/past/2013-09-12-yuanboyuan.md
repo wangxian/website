@@ -17,9 +17,9 @@ tags:
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvhqx6suj20m80etq5r.jpg)
 入园
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvgpcd4gj20et0m8q5e.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvgpcd4gj20et0m8q5e.jpg)
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvhrj34xj20m80etwil.jpg)
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvhski49j20m80etdk5.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvhski49j20m80etdk5.jpg)
 这是什么形象？
 
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvht21cmj20m80etwjm.jpg)
@@ -47,8 +47,8 @@ tags:
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvhip4c3j20m80etn0r.jpg)
 前面是大黄鸭，看到了没？
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvhjc51fj20m80et0u6.jpg)
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvhi4082j20m80etq5w.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvhjc51fj20m80et0u6.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvhi4082j20m80etq5w.jpg)
 力气真大，把大黄鸭都给拖起来了
 
 ![](http://ww4.sinaimg.cn/mw690/493b785ajw1e8hvhhgrzxj20m80etmz7.jpg)
@@ -57,7 +57,7 @@ tags:
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvhfoqs2j20m80etwgr.jpg)
 看大黄鸭的人还真不少
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvhgtf2pj20m80etq6y.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvhgtf2pj20m80etq6y.jpg)
 回来的路上发现，原来有去看大黄鸭的专线，我们可是腿着过去的，走了好长的路。亮点：看大黄鸭专线
 
 ![](http://ww4.sinaimg.cn/mw690/493b785ajw1e8hvhgae5zj20m80etn1o.jpg)
@@ -66,7 +66,7 @@ tags:
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvhf0fttj20m80etwg7.jpg)
 蒙古包里，墙上挂的画
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvhec4ljj20m80ettax.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvhec4ljj20m80ettax.jpg)
 蒙古包里，墙上挂的画
 
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvh9477hj20m80etjtm.jpg)
@@ -92,10 +92,10 @@ tags:
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvha3qn0j20m80etwh7.jpg)
 这饭，一个字『贵』
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvh9mmxbj20m80etaen.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvh9mmxbj20m80etaen.jpg)
 桃花源记
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvh84nbnj20m80ettc2.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvh84nbnj20m80ettc2.jpg)
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvh8krybj20m80etju4.jpg)
 
 ![](http://ww4.sinaimg.cn/mw690/493b785ajw1e8hvh5ntz1j20m80etadv.jpg)
@@ -112,10 +112,10 @@ tags:
 ![](http://ww4.sinaimg.cn/mw690/493b785ajw1e8hvh1yotsj20m80et43o.jpg)
 ![](http://ww1.sinaimg.cn/mw690/493b785ajw1e8hvh1cwdrj20m80etgq8.jpg)
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvh03i2rj20m80et41r.jpg)
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvgws1yrj20et0m8785.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvgws1yrj20et0m8785.jpg)
 小姑娘一个人玩的很开心
 
-![](http://ww3.sinaimg.cn/mw690/493b785ajw1e8hvgzis8bj20m80ettd2.jpg)
+![](/assets/post/mw690/493b785ajw1e8hvgzis8bj20m80ettd2.jpg)
 ![](http://ww2.sinaimg.cn/mw690/493b785ajw1e8hvgyukwvj20m80ette9.jpg)
 ![](http://ww4.sinaimg.cn/mw690/493b785ajw1e8hvgxz6juj20m80etgpv.jpg)
 西安园

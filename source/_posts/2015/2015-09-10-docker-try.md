@@ -3,8 +3,6 @@ layout: post
 comments: true
 title: "Docker try"
 category: ""
-tags: 
-  - 
 ---
 
 年前沈头让研究一下docker在开发环境的应用场景，对docker做了一个初步的研究，  
