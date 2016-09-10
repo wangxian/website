@@ -175,11 +175,11 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-2014-2014-10-09-mbp-cdrom2disk" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-2014-2014-10-21-wall" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2014/2014-2014-10-09-mbp-cdrom2disk.html" class="article-date">
-  	<time datetime="2014-08-25T06:21:46.000Z" itemprop="datePublished">2014-08-25</time>
+      <a href="/2014/2014-2014-10-21-wall.html" class="article-date">
+  	<time datetime="2014-10-21T01:46:50.000Z" itemprop="datePublished">2014-10-21</time>
 </a>
     </div>
   
@@ -192,7 +192,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/2014-2014-10-09-mbp-cdrom2disk.html">老树逢春-光驱变硬盘</a>
+      <a class="article-title" href="/2014/2014-2014-10-21-wall.html">穿墙术</a>
     </h1>
   
 
@@ -201,9 +201,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>自己动手把我的 MacBook Pro 之前拆掉的 SATA 硬盘重新装回去，已解决日益紧张的 SSD 硬盘的紧张<br>局面。再亚马逊上买了硬盘支架，参考教程<a href="http://bbs.feng.com/read-htm-tid-4265042.html" target="_blank" rel="external">http://bbs.feng.com/read-htm-tid-4265042.html</a><br>完美把光驱位变成硬盘。</p>
-<p>我的这个陪伴了我3年多的家伙，一直不忍心换新设备，廉颇不老，看来缝缝补补还能使用上三年，哈哈！</p>
-<p>后记：<br>变身历史，SATA硬盘-&gt;SSD 硬盘-&gt;硬盘换光驱-&gt;…<br>下一步计划把4G内存升8G，看来再用三年未尝不可。）</p>
+        <p>安装（使用 Nodejs npm 进行安装，不建议全局安装）</p>
+<blockquote>
+<p>npm install shadowsocks</p>
+</blockquote>
+<p>修改 node_modules/shadowsocks/config.json</p>
+<pre><code>{
+  &quot;server&quot;:&quot;my_server_ip&quot;,
+  &quot;server_port&quot;:8388,
+  &quot;local_port&quot;:1080,
+  &quot;password&quot;:&quot;barfoo!&quot;,
+  &quot;timeout&quot;:600,
+  &quot;method&quot;:&quot;table&quot;,
+  &quot;local_address&quot;:&quot;127.0.0.1&quot;
+}
+</code></pre><p>启动, 建议使用 pm2 进行守护启动</p>
+<blockquote>
+<p>pm2 start node_modules/shadowsocks/bin/ssserver</p>
+</blockquote>
+<p>更多 shadowsocks-nodejs 移步到 <a href="https://github.com/clowwindy/shadowsocks-nodejs" target="_blank" rel="external">https://github.com/clowwindy/shadowsocks-nodejs</a></p>
+<p>客户端配置和服务器 shadowsocks 配置差不多，不过建议客户端使用 cow 更好, 支持智能PAC<br>智能学习被屏蔽的网址，那些直连，基本上不用手工设置，如果有多个代理服务器，<br>可以进行简单的负载均衡。cow是golang开发，安装很简单，项目地址：<a href="https://github.com/cyfdecyf/cow" target="_blank" rel="external">https://github.com/cyfdecyf/cow</a></p>
 
       
     </div>
@@ -211,11 +228,11 @@
     <div class="article-info article-info-index">
       
       
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/weeklog/">weeklog</a>
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shadowsocks/">shadowsocks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/墙/">墙</a></li></ul>
 	</div>
 
+      
 
       
       <div class="clearfix"></div>
@@ -277,6 +294,63 @@
       
       
       
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-2014-2014-10-09-mbp-cdrom2disk" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/2014-2014-10-09-mbp-cdrom2disk.html" class="article-date">
+  	<time datetime="2014-08-25T06:21:46.000Z" itemprop="datePublished">2014-08-25</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/2014-2014-10-09-mbp-cdrom2disk.html">老树逢春-光驱变硬盘</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>自己动手把我的 MacBook Pro 之前拆掉的 SATA 硬盘重新装回去，已解决日益紧张的 SSD 硬盘的紧张<br>局面。再亚马逊上买了硬盘支架，参考教程<a href="http://bbs.feng.com/read-htm-tid-4265042.html" target="_blank" rel="external">http://bbs.feng.com/read-htm-tid-4265042.html</a><br>完美把光驱位变成硬盘。</p>
+<p>我的这个陪伴了我3年多的家伙，一直不忍心换新设备，廉颇不老，看来缝缝补补还能使用上三年，哈哈！</p>
+<p>后记：<br>变身历史，SATA硬盘-&gt;SSD 硬盘-&gt;硬盘换光驱-&gt;…<br>下一步计划把4G内存升8G，看来再用三年未尝不可。）</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/weeklog/">weeklog</a>
+	</div>
+
 
       
       <div class="clearfix"></div>
@@ -721,66 +795,6 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nginx/">nginx</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-2014-2014-06-24-html-description" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2014/2014-2014-06-24-html-description.html" class="article-date">
-  	<time datetime="2014-06-24T03:10:09.000Z" itemprop="datePublished">2014-06-24</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/2014-2014-06-24-html-description.html">html meta description</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>突然发现一个问题，前几天把网站 _layout/default.html 中的添加了<code>HTML&gt;META[description]</code>属性，<br>这导致了一个比较严重的问题，Google收录网站，Google搜出来的所有描述，<br>都变成了设置成的description信息。</p>
-<p>查了一下<code>HTML&gt;META[description]</code>的使用场景。</p>
-<pre><code>description用于定义网页简短描述
-description出现在name属性中，使用content属性提供网页的简短描述
-</code></pre><p>不能每个页面的描述信息都一样，尤其是文章页。最后加上了判断，只有首页有完整的描述信息。<br>别的界面没有描述信息。</p>
-<p>- 完 - </p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/开发/">开发</a></li></ul>
 	</div>
 
       

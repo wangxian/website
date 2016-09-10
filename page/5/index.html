@@ -175,6 +175,151 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-past-2013-02-13-angular-js" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/past-2013-02-13-angular-js.html" class="article-date">
+  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/past-2013-02-13-angular-js.html">Angular.js学习笔记与感悟</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Angular.js是google出品的一个非常牛x的前端MVC框架，详细的介绍你可以<br><a href="http://www.baidu.com/s?wd=angular" target="_blank" rel="external">百度一下</a> 。</p>
+<p>2013年春节，放假8天，吃了睡，睡了吃的事情，不能让脑子荒废了，如果脑子生锈了，那怎么<br>拿来上班，哈哈。</p>
+<p>花了3天时间细心的研究了angular，怎么觉得名字像“安哥拉”<br>版权写的也比较有个性“Super-powered by Google ©2010-2012 ( v1.0.3 bouncy-thunder )”<br>看到这个版权，你或许知道你怎么选择了，文档写的还是非常详细的。从github上看到源码中既有nodejs，也有ruby，<br>真是google的风格呀；</p>
+<p>教程性的东西，我就不写了，angular写的已经够详细的。angular最牛x的是她的 Testacular 测试，太棒了。<br>单元测试和端对端测试。</p>
+<p>用angular写应用非常简单，js的部分非常少，控制器，模型和视图完全分开，filter ,module （和seajs的module补一个概念）<br>router, $http, form valid, jqlite, multiple view, rest custom service;</p>
+<h4 id="下面对这些方面说一下我的理解："><a href="#下面对这些方面说一下我的理解：" class="headerlink" title="下面对这些方面说一下我的理解："></a>下面对这些方面说一下我的理解：</h4><hr>
+<blockquote>
+<ol>
+<li><p>模型、控制器、视图分离分开很有必要，对服务的封装，让angular用这个更像一个app的高层应用,<br>这是一个优点，同时也算是一个缺点，对底层过于封装，太过于严密，比如没有events层，<br>这对于mvp基于事件的应用就不太适合, 如果做本地应用就不适合。angular偏向于网络http的WebApp；</p>
+</li>
+<li><p>filter 很好，很强大，view层表达式，不允许写表达式，angular认为这是controller的工作，要求很严格。写了就执行错误。</p>
+</li>
+<li>angular宣讲自己是声明式，其他的命令式的</li>
+<li><p>moudle 创建太过抽象，对于控制器作用域， 操作起来很麻烦，对于英文文档上的解释（看着很费劲，构造器apply，<br>但是对于注入的全局, $watch的原理还不是很明白。如何让自定义事件去改变模型数据，比如webapp的tap, singleTap, swipe, 文档没写）<br>所以angularjs 还是偏向于网络应用，如果是桌面应用(webview执行)，本地执行file:/// 就一些功能就非常费劲了，<br>还有虽说视图和model双向绑定，但是在控制器中，如何方便的操作model来改变view，<br>可能我对service的理解还不够深入。总觉得用起来力不从心。</p>
+</li>
+<li><p>angular极度讨厌全局；</p>
+</li>
+<li>angularjs执行ie8以上浏览器，ie8一下浏览器需要兼容。</li>
+<li>url router 这个也非常棒，支持老浏览器和html5新的特性。pushState和hashbang</li>
+<li>内置http, dom element 请求，不用依赖jquery, 有简化版的jqlite</li>
+<li>form valid 内置表单验证，ie的兼容性，我没测试。</li>
+<li>multiple view 多视图，视图片段，这个很多服务器端开发经常用的功能，布局视图，但问题来了，加载别的视图，<br>需要用到ajax去加载，让桌面webview 或 hybird WebApp 增加了不确定性。</li>
+<li>rest custom service 简化服务，看清楚，不是rest url, tutorial上演示简化ajax 但这个功能用处不大。</li>
+<li>还是需要events层，前端嘛，还是基于各种事件。</li>
+<li>能看到某些xx服务器端开发语言的特性。</li>
+</ol>
+</blockquote>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Angular.js还是一个新生事物，对于本地应用还有些局限，如果能在这2个方面，<br>得到改善，那就完美了! 期待少一些xx语言的影子，多些javascript本身的特性。</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-past-2013-02-12-the-spring-festival" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/past-2013-02-12-the-spring-festival.html" class="article-date">
+  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/past-2013-02-12-the-spring-festival.html">2013年春节随想</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>时间过的飞快，转眼间，一年又过去了，又长大了一岁，遥想2013，肯定是一个非常忙碌的一年，<br>在计划中的事情就有好几件. 搬家，父亲来北京，孝敬父母，拍结婚照，筹备婚礼…</p>
+<p>之前觉得挣钱多么重要，现在发现钱怎么那么不够花呢！</p>
+<p>并且工作上还有不少的不确定性，还需要一一去解决的各种事情，事情多，时间不够用，鱼和熊掌不可兼得；</p>
+<p>（我是一个不太会讲话的人，一不小心，<br>容易得罪人，这是2013年要改进的地方，谦卑谨慎也需要一个度。）</p>
+<p><hr><br>    2013 年过年于媳妇家</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/weeklog/">weeklog</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/weeklog/">weeklog</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-past-2013-02-20-rt-jquery-analysis" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -217,73 +362,6 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-past-2013-03-03-paas" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2014/past-2013-03-03-paas.html" class="article-date">
-  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/past-2013-03-03-paas.html">Appfog Heroku Openshif</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>周末花了2天时间研究了，PAAS平台，把主流的PAAS平台尝试了一个遍。</p>
-<p>Appfog 看着很专业 管理命令 af</p>
-<p>Heroku 紫色的界面，不喜欢，还是喜欢appfog的界面，和appfog差不多，命令行 heroku</p>
-<p>Openshift 来自redhat, 服务器在美国，管理方式 git, 并且提供ssh。 管理命令 rhc；使用 gem 按照.</p>
-<p>你可以用openshift来做很多事情，模板上的nodejs是0.6.20， appfog和heroku是0.7的版本，</p>
-<p>不过openshift 可以用action hooks 安装最新的nodejs 版本。比如：<br><a href="https://openshift.wangxian.me/env" target="_blank" rel="external">https://openshift.wangxian.me/env</a></p>
-<p>看清楚了，是走的https</p>
-<hr>
-<p>感觉上appfog 速度是最快的，有亚州的服务器可选，heroku 还可以，openshift 限制最少，唯一的问题是不太稳定，有时候连不上。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PAAS/">PAAS</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/PAAS/">PAAS</a>
 	</div>
 
 
@@ -1087,70 +1165,6 @@ task &apos;watch&apos;, &apos;Watch and Compile [jsc DIR] output to [js DIR]&apo
 
 
   
-    <article id="post-past-2013-07-11-jekyll-mod" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2014/past-2013-07-11-jekyll-mod.html" class="article-date">
-  	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/past-2013-07-11-jekyll-mod.html">修改jekyll配置</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><ol>
-<li>把博客的j k翻页改为了alt+j, alt+k翻页了。以免影响正常的对文章进行评论。</li>
-<li>所有文字加上了.html 扩展名，看着更像静态文件</li>
-<li>把disqus评论系统插件，改为用“多说” 可以用新浪微博登录，进行评论；</li>
-<li>将Jekyll升级到1.0.3 ，卸载了很多系统中无用的gem包</li>
-</ol>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jekyll/">jekyll</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/jekyll/">jekyll</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
     <article id="post-past-2013-07-11-yongjiu-bike" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1213,10 +1227,10 @@ task &apos;watch&apos;, &apos;Watch and Compile [jsc DIR] output to [js DIR]&apo
 
 
   
-    <article id="post-past-2013-07-19-keep-habit" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-past-2013-07-11-jekyll-mod" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2014/past-2013-07-19-keep-habit.html" class="article-date">
+      <a href="/2014/past-2013-07-11-jekyll-mod.html" class="article-date">
   	<time datetime="2014-04-20T05:09:26.000Z" itemprop="datePublished">2014-04-20</time>
 </a>
     </div>
@@ -1230,7 +1244,7 @@ task &apos;watch&apos;, &apos;Watch and Compile [jsc DIR] output to [js DIR]&apo
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/past-2013-07-19-keep-habit.html">保持习惯与坚持</a>
+      <a class="article-title" href="/2014/past-2013-07-11-jekyll-mod.html">修改jekyll配置</a>
     </h1>
   
 
@@ -1239,15 +1253,12 @@ task &apos;watch&apos;, &apos;Watch and Compile [jsc DIR] output to [js DIR]&apo
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ww4.sinaimg.cn/mw690/493b785ajw1e6sb1uuxqsj20gv0ammym.jpg" alt=""><br>(图：小时候的作业本)</p>
-<p>在人生转瞬间过去1/3的时候，想想小时候的梦想，现在的追击，有多大的差距，人生的目标在不断的调整，不断的修正，追求的东西也发生了很大的变化。</p>
-<p>小时候天真的想长大后，成为一个医生，再大一点，觉得当一个老师挺好的，高中的时候想以后搞物理吧，挺有意思，<br>上大学后，坚决放弃了自己的想法，后来成为了一名程序员，并一直做到了现在。<br>这段时间也转了不同的职业岗位，后端、数据统计、WAP、WEB、运维、前端、手机。一直在变幻着，有些变化是主动的有些是被动的接受了该有的变化，但整体上还是坚持了下来。</p>
-<p>今天周五，准备写工作周报，习惯上打开ical看看本周的日程，看做了什么。突然想到这可能是我保持最长的习惯了<br>我一贯奉行长老们说的“好脑子不胜烂笔头” 所以些日程规划，这个习惯算是保持了下来。大概坚持了10年，<br>从什么时候开始的已经记不得清除了，虽然日记/日程的载体也几经变化，基本内容未变。</p>
-<p>我们经常定一些计划，或长期或短期的，能真正坚持的又多少，能把计划变成习惯，真的很难，经常<br>为自己找各种理由来自我辩护，是因为xxx而不能xxx，下次注意之类的。自己终于把自己欺骗了，得了心里的<br>自我安慰，很快你制定的计划就会变成过去式，然后被你忘记。</p>
-<p>想想那些好的习惯被你坚持下来了，那些早被你丢到了犄角旮旯。</p>
-<p>（完）</p>
-<hr>
-<p>按理说周五应该兴奋才是，不知道怎么的，今天特么伤感。<br><br>先写这么多，下班回家。</p>
+        <h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><ol>
+<li>把博客的j k翻页改为了alt+j, alt+k翻页了。以免影响正常的对文章进行评论。</li>
+<li>所有文字加上了.html 扩展名，看着更像静态文件</li>
+<li>把disqus评论系统插件，改为用“多说” 可以用新浪微博登录，进行评论；</li>
+<li>将Jekyll升级到1.0.3 ，卸载了很多系统中无用的gem包</li>
+</ol>
 
       
     </div>
@@ -1256,12 +1267,12 @@ task &apos;watch&apos;, &apos;Watch and Compile [jsc DIR] output to [js DIR]&apo
       
       
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/weeklog/">weeklog</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jekyll/">jekyll</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/weeklog/">weeklog</a>
+	<a class="article-category-link" href="/categories/jekyll/">jekyll</a>
 	</div>
 
 
