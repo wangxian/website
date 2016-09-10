@@ -1,10 +1,10 @@
 ---
-title: Links
-layout: page
+title: 常用链接
+layout: post
 ---
 
-[生成二维码](/misc/qrcode.html)  
-[获取设备分辨率](/misc/screen.html)  
+[生成二维码](/assets/qrcode.html)  
+[获取设备分辨率](/assets/screen.html)  
 [安装根证书](http://coding.wangxian.me/root.crt)  
 [Blog](/)  
 [Weibo](http://weibo.com/xian366)  
