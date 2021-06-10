@@ -5,7 +5,7 @@
   </title>
   <link href="https://xiqiu.top/atom.xml" rel="self" />
   <link href="https://xiqiu.top/" />
-  <updated>2021-06-09T00:59:39+08:00</updated>
+  <updated>2021-06-10T18:58:39+08:00</updated>
   <id>https://xiqiu.top/</id>
   <author>
     <name>
@@ -14,6 +14,74 @@
   </author>
 
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[A good day]]>
+    </title>
+    <link href="https://xiqiu.top/16233219018657.html" />
+    <updated>2021-06-10T18:45:01+08:00</updated>
+    <id>https://xiqiu.top/16233219018657.html</id>
+    <content type="html">
+      <![CDATA[<p>fghfghfgh</p>
+
+<p>fghfghfg</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[关于MWeb的技术博客]]>
+    </title>
+    <link href="https://xiqiu.top/15137793624332.html" />
+    <updated>2017-12-20T22:16:02+08:00</updated>
+    <id>https://xiqiu.top/15137793624332.html</id>
+    <content type="html">
+      <![CDATA[<p>MWeb的技术博客，用起来还算方便。</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[2018年10月03日]]>
+    </title>
+    <link href="https://xiqiu.top/15283888928069.html" />
+    <updated>2018-06-08T00:28:12+08:00</updated>
+    <id>https://xiqiu.top/15283888928069.html</id>
+    <content type="html">
+      <![CDATA[<p>测试正常文章，清理 @2018年10月03日 之前的博客。</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[热爱生命 - 汪国真]]>
+    </title>
+    <link href="https://xiqiu.top/15713863417090.html" />
+    <updated>2019-10-18T16:12:21+08:00</updated>
+    <id>https://xiqiu.top/15713863417090.html</id>
+    <content type="html">
+      <![CDATA[<p>我不去想是否能够成功<br/>
+既然选择了远方<br/>
+便只顾风雨兼程</p>
+
+<p>我不去想能否赢得爱情<br/>
+既然钟情于玫瑰<br/>
+就勇敢地吐露真诚</p>
+
+<p>我不去想身后会不会袭来寒风冷雨<br/>
+既然目标是地平线<br/>
+留给世界的只能是背影</p>
+
+<p>我不去想未来是平坦还是泥泞<br/>
+只要热爱生命<br/>
+一切，都在意料之中</p>
+]]>
+    </content>
+  </entry>
   
   <entry>
     <title type="html">
@@ -58,51 +126,6 @@
   
   <entry>
     <title type="html">
-      <![CDATA[《再论雷峰塔的倒掉》]]>
-    </title>
-    <link href="https://xiqiu.top/15952510603871.html" />
-    <updated>2020-07-20T21:17:40+08:00</updated>
-    <id>https://xiqiu.top/15952510603871.html</id>
-    <content type="html">
-      <![CDATA[<p>节选：<br/>
-不过在戏台上罢了，<br/>
-悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。<br/>
-讥讽又不过是喜剧的变简的一支流。但悲壮滑稽，却都是十景病的仇敌，因为都有破坏性，虽然所破坏的方面各不同。</p>
-
-<hr/>
-]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title type="html">
-      <![CDATA[热爱生命 - 汪国真]]>
-    </title>
-    <link href="https://xiqiu.top/15713863417090.html" />
-    <updated>2019-10-18T16:12:21+08:00</updated>
-    <id>https://xiqiu.top/15713863417090.html</id>
-    <content type="html">
-      <![CDATA[<p>我不去想是否能够成功<br/>
-既然选择了远方<br/>
-便只顾风雨兼程</p>
-
-<p>我不去想能否赢得爱情<br/>
-既然钟情于玫瑰<br/>
-就勇敢地吐露真诚</p>
-
-<p>我不去想身后会不会袭来寒风冷雨<br/>
-既然目标是地平线<br/>
-留给世界的只能是背影</p>
-
-<p>我不去想未来是平坦还是泥泞<br/>
-只要热爱生命<br/>
-一切，都在意料之中</p>
-]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title type="html">
       <![CDATA[HELLO WORLD]]>
     </title>
     <link href="https://xiqiu.top/15137789941648.html" />
@@ -116,26 +139,18 @@
   
   <entry>
     <title type="html">
-      <![CDATA[关于MWeb的技术博客]]>
+      <![CDATA[《再论雷峰塔的倒掉》]]>
     </title>
-    <link href="https://xiqiu.top/15137793624332.html" />
-    <updated>2017-12-20T22:16:02+08:00</updated>
-    <id>https://xiqiu.top/15137793624332.html</id>
+    <link href="https://xiqiu.top/15952510603871.html" />
+    <updated>2020-07-20T21:17:40+08:00</updated>
+    <id>https://xiqiu.top/15952510603871.html</id>
     <content type="html">
-      <![CDATA[<p>MWeb的技术博客，用起来还算方便。</p>
-]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title type="html">
-      <![CDATA[2018年10月03日]]>
-    </title>
-    <link href="https://xiqiu.top/15283888928069.html" />
-    <updated>2018-06-08T00:28:12+08:00</updated>
-    <id>https://xiqiu.top/15283888928069.html</id>
-    <content type="html">
-      <![CDATA[<p>测试正常文章，清理 @2018年10月03日 之前的博客。</p>
+      <![CDATA[<p>节选：<br/>
+不过在戏台上罢了，<br/>
+悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。<br/>
+讥讽又不过是喜剧的变简的一支流。但悲壮滑稽，却都是十景病的仇敌，因为都有破坏性，虽然所破坏的方面各不同。</p>
+
+<hr/>
 ]]>
     </content>
   </entry>
