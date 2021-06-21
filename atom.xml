@@ -5,7 +5,7 @@
   </title>
   <link href="https://xiqiu.top/atom.xml" rel="self" />
   <link href="https://xiqiu.top/" />
-  <updated>2021-06-10T20:24:23+08:00</updated>
+  <updated>2021-06-21T16:48:34+08:00</updated>
   <id>https://xiqiu.top/</id>
   <author>
     <name>
@@ -14,6 +14,37 @@
   </author>
 
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[注册域名邮箱]]>
+    </title>
+    <link href="https://xiqiu.top/16242649451119.html" />
+    <updated>2021-06-21T16:42:25+08:00</updated>
+    <id>https://xiqiu.top/16242649451119.html</id>
+    <content type="html">
+      <![CDATA[<p>良心的腾讯企业邮，只需几分钟即可拥有自有域名的邮箱(<code>xxx@xiqiu.top</code>)，无其他要求，免费版够用。</p>
+
+<p>注册：<a href="https://exmail.qq.com/">https://exmail.qq.com/</a> 根据指引完成操作即可。</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[关于域名]]>
+    </title>
+    <link href="https://xiqiu.top/16242646414650.html" />
+    <updated>2021-06-21T16:37:21+08:00</updated>
+    <id>https://xiqiu.top/16242646414650.html</id>
+    <content type="html">
+      <![CDATA[<p>本站域名更换为 <code>xiqiu.top</code>, 原 <code>wangxian.me</code> 不再使用。<br/>
+<code>.top</code> 域名真便宜。</p>
+
+<p>.top域名 + Cloudflare 绝配、省心</p>
+]]>
+    </content>
+  </entry>
   
   <entry>
     <title type="html">
@@ -58,26 +89,18 @@
   
   <entry>
     <title type="html">
-      <![CDATA[关于MWeb的技术博客]]>
+      <![CDATA[《再论雷峰塔的倒掉》]]>
     </title>
-    <link href="https://xiqiu.top/15137793624332.html" />
-    <updated>2017-12-20T22:16:02+08:00</updated>
-    <id>https://xiqiu.top/15137793624332.html</id>
+    <link href="https://xiqiu.top/15952510603871.html" />
+    <updated>2020-07-20T21:17:40+08:00</updated>
+    <id>https://xiqiu.top/15952510603871.html</id>
     <content type="html">
-      <![CDATA[<p>MWeb的技术博客，用起来还算方便。</p>
-]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title type="html">
-      <![CDATA[2018年10月03日]]>
-    </title>
-    <link href="https://xiqiu.top/15283888928069.html" />
-    <updated>2018-06-08T00:28:12+08:00</updated>
-    <id>https://xiqiu.top/15283888928069.html</id>
-    <content type="html">
-      <![CDATA[<p>测试正常文章，清理 @2018年10月03日 之前的博客。</p>
+      <![CDATA[<p>节选：<br/>
+不过在戏台上罢了，<br/>
+悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。<br/>
+讥讽又不过是喜剧的变简的一支流。但悲壮滑稽，却都是十景病的仇敌，因为都有破坏性，虽然所破坏的方面各不同。</p>
+
+<hr/>
 ]]>
     </content>
   </entry>
@@ -111,6 +134,32 @@
   
   <entry>
     <title type="html">
+      <![CDATA[2018年10月03日]]>
+    </title>
+    <link href="https://xiqiu.top/15283888928069.html" />
+    <updated>2018-06-08T00:28:12+08:00</updated>
+    <id>https://xiqiu.top/15283888928069.html</id>
+    <content type="html">
+      <![CDATA[<p>测试正常文章，清理 @2018年10月03日 之前的博客。</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
+      <![CDATA[关于MWeb的技术博客]]>
+    </title>
+    <link href="https://xiqiu.top/15137793624332.html" />
+    <updated>2017-12-20T22:16:02+08:00</updated>
+    <id>https://xiqiu.top/15137793624332.html</id>
+    <content type="html">
+      <![CDATA[<p>MWeb的技术博客，用起来还算方便。</p>
+]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title type="html">
       <![CDATA[HELLO WORLD]]>
     </title>
     <link href="https://xiqiu.top/15137789941648.html" />
@@ -118,24 +167,6 @@
     <id>https://xiqiu.top/15137789941648.html</id>
     <content type="html">
       <![CDATA[<p>欢迎光临！</p>
-]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title type="html">
-      <![CDATA[《再论雷峰塔的倒掉》]]>
-    </title>
-    <link href="https://xiqiu.top/15952510603871.html" />
-    <updated>2020-07-20T21:17:40+08:00</updated>
-    <id>https://xiqiu.top/15952510603871.html</id>
-    <content type="html">
-      <![CDATA[<p>节选：<br/>
-不过在戏台上罢了，<br/>
-悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。<br/>
-讥讽又不过是喜剧的变简的一支流。但悲壮滑稽，却都是十景病的仇敌，因为都有破坏性，虽然所破坏的方面各不同。</p>
-
-<hr/>
 ]]>
     </content>
   </entry>
